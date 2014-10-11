@@ -1,0 +1,654 @@
+2014/10/09 13:53:50 [error] [php] Use of undefined constant SITE_URL - assumed 'SITE_URL' (E:\xampp\htdocs\test\protected\views\user\login.php:25)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\test\protected\controllers\UserController.php(15): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php?r=USER/login
+in E:\xampp\htdocs\test\protected\views\user\login.php (25)
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (15)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/09 13:53:55 [error] [php] Use of undefined constant SITE_URL - assumed 'SITE_URL' (E:\xampp\htdocs\test\protected\views\user\login.php:25)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\test\protected\controllers\UserController.php(15): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php?r=user/login
+in E:\xampp\htdocs\test\protected\views\user\login.php (25)
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (15)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/09 13:53:58 [error] [exception.CDbException] exception 'CDbException' with message 'The table "user" for active record class "User" cannot be found in the database.' in E:\xampp\htdocs\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 E:\xampp\htdocs\test\protected\controllers\UserController.php(27): CActiveRecord->__construct()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionShow()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/index.php?r=user/show
+---
+2014/10/09 14:00:03 [error] [exception.CDbException] exception 'CDbException' with message 'The table "user" for active record class "User" cannot be found in the database.' in E:\xampp\htdocs\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 E:\xampp\htdocs\test\protected\controllers\UserController.php(27): CActiveRecord->__construct()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionShow()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/index.php?r=user/show
+---
+2014/10/09 14:00:04 [error] [exception.CDbException] exception 'CDbException' with message 'The table "user" for active record class "User" cannot be found in the database.' in E:\xampp\htdocs\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(User))
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 E:\xampp\htdocs\test\protected\controllers\UserController.php(27): CActiveRecord->__construct()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionShow()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/test/index.php?r=user/show
+---
+2014/10/09 14:00:43 [error] [php] Use of undefined constant SITE_URL - assumed 'SITE_URL' (E:\xampp\htdocs\test\protected\views\user\login.php:25)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\test\protected\controllers\UserController.php(15): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php?r=user/login
+in E:\xampp\htdocs\test\protected\views\user\login.php (25)
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (15)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/09 14:52:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "register".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('register')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('register')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/register')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/site/register
+---
+2014/10/10 04:05:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('jquery-1.11.1.j...')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('jquery-1.11.1.j...')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/jquery-1.1...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/login.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/login.j...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/jquery-...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/jquery-...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/login.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/login.j...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('jquery-1.11.1.j...')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('jquery-1.11.1.j...')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/jquery-1.1...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/jquery-...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/login.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/login.j...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/jquery-...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/login.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/login.j...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('jquery-1.11.1.j...')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('jquery-1.11.1.j...')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/jquery-1.1...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/jquery-...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/login.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/login.j...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/jquery-...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:05:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "layouts/login.js".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('layouts/login.j...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test/index.php/layouts/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('jquery-1.11.1.j...')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('jquery-1.11.1.j...')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/jquery-1.1...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:06:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+---
+2014/10/10 04:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('jquery-1.11.1.j...')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('jquery-1.11.1.j...')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/jquery-1.1...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/login.js
+---
+2014/10/10 04:14:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/login.js
+---
+2014/10/10 04:14:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+---
+2014/10/10 04:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('jquery-1.11.1.j...')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('jquery-1.11.1.j...')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/jquery-1.1...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:18:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "jquery-1.11.1.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('jquery-1.11.1.j...')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('jquery-1.11.1.j...')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/jquery-1.1...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:18:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 04:18:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login.js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login.js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login.js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login.js')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/login.js
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/register
+---
+2014/10/10 10:31:09 [error] [php] Undefined variable: user_model (E:\xampp\htdocs\test\protected\views\user\login.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\test\protected\controllers\UserController.php(25): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/user/login
+in E:\xampp\htdocs\test\protected\views\user\login.php (16)
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (25)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 11:01:59 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\test\protected\controllers\UserController.php:25)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/user/login
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (25)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 11:03:39 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\test\protected\controllers\UserController.php:27)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/user/login
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (27)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 11:05:43 [error] [php] Array to string conversion (E:\xampp\htdocs\test\protected\controllers\UserController.php:27)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/user/login
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (27)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 11:16:58 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm.username" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\helpers\CHtml.php(2529): CComponent->__get('username')
+#1 E:\xampp\htdocs\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(LoginForm), 'username')
+#2 E:\xampp\htdocs\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(LoginForm), 'username', Array)
+#3 E:\xampp\htdocs\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(LoginForm), 'username', Array)
+#4 E:\xampp\htdocs\test\protected\views\site\login.php(29): CActiveForm->textField(Object(LoginForm), 'username')
+#5 E:\xampp\htdocs\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#6 E:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#7 E:\xampp\htdocs\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#8 E:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#9 E:\xampp\htdocs\test\protected\controllers\SiteController.php(98): CController->render('login', Array)
+#10 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#11 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#12 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#13 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#15 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#16 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#17 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/test/index.php/site/login
+---
+2014/10/10 11:17:56 [error] [php] include(E:\xampp\htdocs\test\protected\models\LoginForm.php): failed to open stream: No such file or directory (E:\xampp\htdocs\framework\YiiBase.php:427)
+Stack trace:
+#0 E:\xampp\htdocs\test\protected\controllers\SiteController.php(80): spl_autoload_call()
+#1 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#2 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\xampp\htdocs\framework\web\CController.php(286): SiteController->runAction()
+#4 E:\xampp\htdocs\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#5 E:\xampp\htdocs\framework\web\CWebApplication.php(282): SiteController->run()
+#6 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/site/login
+in E:\xampp\htdocs\test\protected\controllers\SiteController.php (80)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 11:18:01 [error] [php] Undefined variable: password2 (E:\xampp\htdocs\test\protected\controllers\UserController.php:28)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/user/login
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (28)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 11:18:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "welcom".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('welcom')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('welcom')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/welcom')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test/index.php/user/welcom
+HTTP_REFERER=http://127.0.0.1/test/index.php/user/login
+---
+2014/10/10 11:24:24 [error] [php] Undefined variable: password2 (E:\xampp\htdocs\test\protected\controllers\UserController.php:33)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/user/login
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (33)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 11:24:47 [error] [php] Undefined variable: password2 (E:\xampp\htdocs\test\protected\controllers\UserController.php:35)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/user/login
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (35)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 13:45:15 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\test\protected\controllers\UserController.php:29)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#3 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/user/login
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (29)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 15:05:43 [error] [php] Undefined variable: user_model (E:\xampp\htdocs\test\protected\views\user\login.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\test\protected\controllers\UserController.php(53): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\CController.php(286): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\test\index.php(13): CWebApplication->run()
+REQUEST_URI=/test/index.php/user/login
+in E:\xampp\htdocs\test\protected\views\user\login.php (16)
+in E:\xampp\htdocs\test\protected\controllers\UserController.php (53)
+in E:\xampp\htdocs\test\index.php (13)
+2014/10/10 15:27:53 [warning] [application] Failed to set unsafe attribute "user_name" of "User".
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (93)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/10 15:27:53 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (93)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/10 15:27:55 [warning] [application] Failed to set unsafe attribute "user_name" of "User".
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (93)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/10 15:27:55 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (93)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/10 15:27:57 [warning] [application] Failed to set unsafe attribute "user_name" of "User".
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (93)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/10 15:27:57 [warning] [application] Failed to set unsafe attribute "password" of "User".
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (93)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/10 15:30:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.loginform' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `LoginForm`.
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (23)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/10 15:30:29 [error] [exception.CDbException] exception 'CDbException' with message 'The table "LoginForm" for active record class "LoginForm" cannot be found in the database.' in E:\xampp\htdocs\framework\db\ar\CActiveRecord.php:2362
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(LoginForm))
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(79): CActiveRecord->getMetaData()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(23): CActiveRecord->__construct()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
