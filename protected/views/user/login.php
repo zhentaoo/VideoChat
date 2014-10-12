@@ -9,7 +9,12 @@ $this->breadcrumbs = array(
 );
 ?>
 <h1>用户登录</h1>
-<?php $form = $this->beginWidget('CActiveForm'); ?>
+<?php $form = $this->beginWidget('CActiveForm', array(
+    'enableClientValidation' => true,
+    'clientOptions' => array(
+        'validateOnSubmit' => true,
+    ),
+)); ?>
 <table>
     <tr>
         <td> <?php echo $form->label($login_model, 'user_name'); ?></td>

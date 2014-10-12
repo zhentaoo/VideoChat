@@ -23,8 +23,7 @@ class UserController extends Controller
         $login_model = new LoginForm;
         if (isset($_POST['LoginForm'])) {
             $login_model->attributes = $_POST['LoginForm'];
-            var_dump($login_model->user_name);
-            var_dump($login_model->password);
+           /**validate只校验不保存，和save()的区别**/
             if ($login_model->validate())
                 $this->redirect('welcom');
         }

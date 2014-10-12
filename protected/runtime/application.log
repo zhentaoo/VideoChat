@@ -652,3 +652,189 @@ Stack trace:
 REQUEST_URI=/yii-test/index.php/user/login
 HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
 ---
+2014/10/12 04:05:42 [error] [exception.CException] exception 'CException' with message 'Property "LoginForm._identity" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:173
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\models\LoginForm.php(36): CComponent->__set('_identity', Object(UserIdentity))
+#1 E:\xampp\htdocs\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('user_name', Array)
+#2 E:\xampp\htdocs\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'user_name')
+#3 E:\xampp\htdocs\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#4 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(28): CModel->validate()
+#5 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#6 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#11 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/12 04:07:29 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\components\UserIdentity.php(20): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\models\LoginForm.php(38): UserIdentity->authenticate()
+#2 E:\xampp\htdocs\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('user_name', Array)
+#3 E:\xampp\htdocs\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'user_name')
+#4 E:\xampp\htdocs\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(28): CModel->validate()
+#6 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#7 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#12 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/12 04:09:18 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\components\UserIdentity.php(20): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\models\LoginForm.php(38): UserIdentity->authenticate()
+#2 E:\xampp\htdocs\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('user_name', Array)
+#3 E:\xampp\htdocs\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'user_name')
+#4 E:\xampp\htdocs\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(28): CModel->validate()
+#6 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#7 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#12 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/12 04:11:49 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\components\UserIdentity.php(20): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\models\LoginForm.php(38): UserIdentity->authenticate()
+#2 E:\xampp\htdocs\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('user_name', Array)
+#3 E:\xampp\htdocs\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'user_name')
+#4 E:\xampp\htdocs\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(28): CModel->validate()
+#6 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#7 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#12 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/12 04:17:48 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\components\UserIdentity.php(20): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\models\LoginForm.php(37): UserIdentity->authenticate()
+#2 E:\xampp\htdocs\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 E:\xampp\htdocs\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 E:\xampp\htdocs\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(28): CModel->validate()
+#6 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#7 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#12 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/12 04:17:50 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\components\UserIdentity.php(20): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\models\LoginForm.php(37): UserIdentity->authenticate()
+#2 E:\xampp\htdocs\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 E:\xampp\htdocs\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 E:\xampp\htdocs\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(28): CModel->validate()
+#6 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#7 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#12 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/12 04:18:12 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\components\UserIdentity.php(20): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\models\LoginForm.php(37): UserIdentity->authenticate()
+#2 E:\xampp\htdocs\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 E:\xampp\htdocs\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 E:\xampp\htdocs\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(28): CModel->validate()
+#6 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#7 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#12 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/12 04:28:00 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\components\UserIdentity.php(21): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\models\LoginForm.php(38): UserIdentity->authenticate()
+#2 E:\xampp\htdocs\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#3 E:\xampp\htdocs\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#4 E:\xampp\htdocs\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#5 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(27): CModel->validate()
+#6 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#7 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#12 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/12 04:31:11 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'. The SQL statement executed was: SELECT * FROM `user` `t` WHERE username=:name LIMIT 1.
+in E:\xampp\htdocs\yii-test\protected\components\UserIdentity.php (21)
+in E:\xampp\htdocs\yii-test\protected\models\LoginForm.php (38)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (27)
+2014/10/12 04:31:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'. The SQL statement executed was: SELECT * FROM `user` `t` WHERE username=:name LIMIT 1' in E:\xampp\htdocs\framework\db\CDbCommand.php:543
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 E:\xampp\htdocs\yii-test\protected\components\UserIdentity.php(21): CActiveRecord->find('username=:name', Array)
+#4 E:\xampp\htdocs\yii-test\protected\models\LoginForm.php(38): UserIdentity->authenticate()
+#5 E:\xampp\htdocs\framework\validators\CInlineValidator.php(42): LoginForm->authenticate('password', Array)
+#6 E:\xampp\htdocs\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#7 E:\xampp\htdocs\framework\base\CModel.php(159): CValidator->validate(Object(LoginForm), NULL)
+#8 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(27): CModel->validate()
+#9 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#10 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#14 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#15 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---

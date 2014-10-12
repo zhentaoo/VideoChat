@@ -11,7 +11,12 @@ $this->breadcrumbs = array(
 
 
 <h1>用户注册</h1>
-<?php $form = $this->beginWidget('CActiveForm'); ?>
+<?php $form = $this->beginWidget('CActiveForm', array(
+    'enableClientValidation' => true,
+    'clientOptions' => array(
+        'validateOnSubmit' => true,
+    ),
+)); ?>
 <table>
     <tr>
         <td> <?php echo $form->label($user_model, 'user_name'); ?></td>
