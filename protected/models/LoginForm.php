@@ -36,7 +36,7 @@ class LoginForm extends CFormModel
         if (!$this->hasErrors()) {
             $this->_identity = new UserIdentity($this->user_name, $this->password);
             if (!$this->_identity->authenticate())
-                $this->addError('password', '<font color="red">*用户名或密码错误！！</font>');
+                $this->addError('password', '<font color="red">*密码或用户名错误！！</font>');
         }
 
         /**不使用UserIdentity**/

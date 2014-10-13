@@ -28,11 +28,18 @@ $this->breadcrumbs = array(
         <td><?php echo $form->passwordField($user_model, 'password') ?></td>
         <td><?php echo $form->error($user_model, 'password'); ?></td>
     </tr>
+
+    <tr>
+        <td><?php echo $form->label($user_model, 'password2'); ?></td>
+        <td><?php echo $form->passwordField($user_model, 'password2') ?></td>
+        <td><?php echo $form->error($user_model, 'password2'); ?></td>
+    </tr>
     <tr>
         <td><?php echo $form->label($user_model, 'email'); ?></td>
         <td><?php echo $form->emailField($user_model, 'email'); ?></td>
         <td><?php echo $form->error($user_model, 'email'); ?></td>
     </tr>
+
     <tr>
         <td><?php echo CHtml::submitButton('注册');
             ?></td>

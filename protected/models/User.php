@@ -4,6 +4,7 @@ class User extends CActiveRecord
 {
     public $user_name;
     public $password;
+    public $password2;
     public $email;
     private $_identity;
 
@@ -22,29 +23,19 @@ class User extends CActiveRecord
     public function rules()
     {
         return array(
-            array('password,user_name,email', 'required'),
-            array('email', 'email'),
-            array('password,user_name,email', 'authenticate'),
+            array('user_name', 'required', 'message' => '<font color="red">*用户名必填</font>'),
+            array('password', 'required', 'message' => '<font color="red">*密码必填</font>'),
+            array('password2', 'required', 'message' => '<font color="red">*重复密码必填</font>'),
+            array('email', 'required', 'message' => '<font color="red">*邮箱必填</font>'),
+            array('email', 'email', 'message' => '<font color="red">*邮箱格式错误！！！</font>'),
+            array('password', 'authenticate'),
         );
     }
 
     public function authenticate($attribute, $params)
     {
-//        $this->_identity = new UserIdentity($this->user_name, $this->password);
-        if ($this->password == '')
-            $this->addError('password', '<font color="red">*密码不能空</font>');
-        if ($this->user_name == '')
-            $this->addError('user_name', '<font color="red">*用户名不能空</font>');
-        if ($this->email == '')
-            $this->addError('email', '<font color="red">*邮件不能空</font>');
-
-//        if ($this->password != 'a')
-//            $this->addError('password', '密码错误');
-//        if ($this->user_name != 'lzt')
-//            $this->addError('user_name', '用户名错误');
-//        if ($this->email != 'lzt@qq.com')
-//            $this->addError('email', '邮件错误');
-
+        if ($this->password != $this->password2)
+            $this->addError('password2', '<font color="red">*两次密码不同！！！</font>');
     }
 
     /*
