@@ -16,7 +16,7 @@ class UserController extends Controller
             array(
                 'allow',//允许访问
                 'actions' => array('index', 'login', 'register'),//提到的都可以访问
-                'users' => array('*'),//登陆的用户可以访问
+                'users' => array('*'),//任何用户可以访问
             ),
             array(
                 'allow',//允许访问
@@ -24,8 +24,13 @@ class UserController extends Controller
                 'users' => array('@'),//登陆的用户可以访问
             ),
             array(
+                'allow',
+                'actions' => array('show'),
+                'users' => array('李震涛'),//上面沒有提到的页面，任何用户都不可以访问
+            ),
+            array(
                 'deny',
-                'users' => array('*'),//上面沒有提到的页面，所有用户都不可以访问
+                'users' => array('*'),
             ),
         );
     }
@@ -56,12 +61,12 @@ class UserController extends Controller
         }
 
         $this->render('login', array('login_model' => $login_model));
-
     }
 
     public function actionLogout()
     {
-        $this->render("logout");
+
+        $this->redirect("index");
     }
 
     public function actionShow()
