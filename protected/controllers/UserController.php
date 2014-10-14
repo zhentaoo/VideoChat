@@ -26,11 +26,17 @@ class UserController extends Controller
             array(
                 'allow',
                 'actions' => array('show'),
-                'users' => array('李震涛'),//上面沒有提到的页面，任何用户都不可以访问
+                'users' => array('李震涛', '嘎嘎嘎'),//只有李震涛，嘎嘎嘎这两个用户可以访问
             ),
             array(
+                'allow',
+                'actions' => array('S1', 'S2', 'S3'),
+                'users' => array('?'),
+            ),
+
+            array(
                 'deny',
-                'users' => array('*'),
+                'users' => array('*'),//上面沒有提到的页面，任何用户都不可以访问
             ),
         );
     }
