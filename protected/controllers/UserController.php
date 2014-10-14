@@ -5,7 +5,30 @@
  */
 class UserController extends Controller
 {
-    public $islogin = false;
+    function  filters()
+    {
+        return array('accessControl');
+    }
+
+    function accessRules()
+    {
+        return array(
+            array(
+                'allow',//允许访问
+                'actions' => array('index', 'login', 'register'),//提到的都可以访问
+                'users' => array('*'),//登陆的用户可以访问
+            ),
+            array(
+                'allow',//允许访问
+                'actions' => array('welcom'),//提到的都可以访问
+                'users' => array('@'),//登陆的用户可以访问
+            ),
+            array(
+                'deny',
+                'users' => array('*'),//上面沒有提到的页面，所有用户都不可以访问
+            ),
+        );
+    }
 
     public function actionIndex()
     {
@@ -14,11 +37,11 @@ class UserController extends Controller
 
     public function actionWelcom()
     {
-        if (Yii::app()->user->getIsGuest()) {
-            $guest = '游客';
-            $this->render('index', array('guest' => $guest));
-        } else
-            $this->render('welcom');
+//        if (Yii::app()->user->getIsGuest()) {
+//            $guest = '游客';
+//            $this->render('index', array('guest' => $guest));
+//        } else
+        $this->render('welcom');
     }
 
     public function actionLogin()
@@ -49,18 +72,18 @@ class UserController extends Controller
 
         // 通过model模型对象，调用相关方法帮我们查询数据
         // $user_infos = $user_model -> find();
-        // echo $user_infos -> user_name.'<br>';
-        // echo $user_infos -> user_id.'<br>';
-        // echo $user_infos -> password.'<br>';
+        // echo $user_infos -> user_name.' < br>';
+        // echo $user_infos -> user_id.' < br>';
+        // echo $user_infos -> password.' < br>';
 
         /*         * 获取全部商品信息findAll()* */
         // $user_infos = $user_model -> findAll();
 
         /*         * 获取全部数据的名字* */
         // foreach ($user_infos as $_v) {
-        // echo $_v -> user_name . '<br>';
-        // echo $_v -> user_id . '<br>';
-        // echo $_v -> password . '<br>';
+        // echo $_v -> user_name . ' < br>';
+        // echo $_v -> user_id . ' < br>';
+        // echo $_v -> password . ' < br>';
         // }
 
         /*         * 直接打印信息* */
@@ -96,14 +119,14 @@ class UserController extends Controller
     function actionS1()
     {
         Yii::app()->session['user_name'] = 'zhangsan';
-        Yii::app()->session['email'] = 'sdf@qq.com';
+        Yii::app()->session['email'] = 'sdf@qq . com';
         echo 'make session success';
     }
 
     function actionS2()
     {
-        echo Yii::app()->session['user_name'] . '<br>';
-        echo Yii::app()->session['email'] . '<br>';
+        echo Yii::app()->session['user_name'] . ' < br>';
+        echo Yii::app()->session['email'] . ' < br>';
         echo 'use session success';
     }
 
@@ -132,6 +155,13 @@ class UserController extends Controller
          * 把$ck对象放入cookie组件里
          */
         Yii::app()->request->cookies['sex'] = $ck;
+        /*
+         * 设置第二个cookies
+         */
+        $ck2 = new CHttpCookie('hobby', '男');
+        $ck2->expire = time() + 3600;
+        Yii::app()->request->cookies['hobby'] = $ck2;
+
         echo "cookie make success";
     }
 
@@ -141,6 +171,22 @@ class UserController extends Controller
          * 访问cookie
          */
         echo Yii::app()->request->cookies['sex'];
+        echo Yii::app()->request->cookies['hobby'];
+    }
+
+    function actionC3()
+    {
+        unset(Yii::app()->request->cookies['sex']);
+
+    }
+
+    function actionLu()
+    {
+        //输出路径别名信息
+        /*
+         * framwork\web
+         */
+        echo Yii::getPathOfAlias('system . web');
     }
 }
 
