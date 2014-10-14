@@ -14,7 +14,11 @@ class UserController extends Controller
 
     public function actionWelcom()
     {
-        $this->render('welcom');
+        if (Yii::app()->user->getIsGuest()) {
+            $guest = '游客';
+            $this->render('index', array('guest' => $guest));
+        } else
+            $this->render('welcom');
     }
 
     public function actionLogin()
@@ -23,8 +27,8 @@ class UserController extends Controller
         $login_model = new LoginForm;
         if (isset($_POST['LoginForm'])) {
             $login_model->attributes = $_POST['LoginForm'];
-           /**validate只校验不保存，和save()的区别**/
-            if ($login_model->validate())
+            /**validate只校验不保存，和save()的区别**/
+            if ($login_model->validate() && $login_model->login())
                 $this->redirect('welcom');
         }
 
@@ -82,6 +86,61 @@ class UserController extends Controller
     function actionUpdate()
     {
 
+    }
+
+    function actionError()
+    {
+        $this->render('error');
+    }
+
+    function actionS1()
+    {
+        Yii::app()->session['user_name'] = 'zhangsan';
+        Yii::app()->session['email'] = 'sdf@qq.com';
+        echo 'make session success';
+    }
+
+    function actionS2()
+    {
+        echo Yii::app()->session['user_name'] . '<br>';
+        echo Yii::app()->session['email'] . '<br>';
+        echo 'use session success';
+    }
+
+    function actionS3()
+    {
+        /*
+         * 删除一个session
+         */
+//        unset(Yii::app()->session['user_name']);
+
+        /*
+         * 删除全部session
+         */
+        Yii::app()->session->clear();
+        Yii::app()->session->destroy();
+    }
+
+    function actionC1()
+    {
+        /*
+         * 设置cookie
+         */
+        $ck = new CHttpCookie('sex', '女');
+        $ck->expire = time() + 3600;
+        /*
+         * 把$ck对象放入cookie组件里
+         */
+        Yii::app()->request->cookies['sex'] = $ck;
+        echo "cookie make success";
+    }
+
+    function actionC2()
+    {
+        /*
+         * 访问cookie
+         */
+        echo Yii::app()->request->cookies['sex'];
     }
 }
 

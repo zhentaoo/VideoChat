@@ -24,7 +24,7 @@ class UserIdentity extends CUserIdentity
             $this->errorCode = self::ERROR_USERNAME_INVALID;
             return false;
         } else if ($user_model->password !== $this->password) {
-            /**数据库查询密码！==用户输入密码**/
+            /******数据库查询密码！==用户输入密码**/
             $this->errorCode = self::ERROR_PASSWORD_INVALID;
             return false;
         } else {

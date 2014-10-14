@@ -16,6 +16,7 @@ class User extends CActiveRecord
         return array(
             'user_name' => '用户名',
             'password' => '密码',
+            'password2' => '重复密码',
             'email' => '邮箱'
         );
     }
@@ -28,14 +29,14 @@ class User extends CActiveRecord
             array('password2', 'required', 'message' => '<font color="red">*重复密码必填</font>'),
             array('email', 'required', 'message' => '<font color="red">*邮箱必填</font>'),
             array('email', 'email', 'message' => '<font color="red">*邮箱格式错误！！！</font>'),
-            array('password', 'authenticate'),
+            array("password2", "compare", "compareAttribute" => "password", "message" => "<font color='red'>*两次密码不一致</font>"),
+            array('user_name', 'authenticate'),
         );
     }
 
     public function authenticate($attribute, $params)
     {
-        if ($this->password != $this->password2)
-            $this->addError('password2', '<font color="red">*两次密码不同！！！</font>');
+
     }
 
     /*
