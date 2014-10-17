@@ -15,7 +15,7 @@ class UserController extends Controller
         return array(
             array(
                 'allow',//允许访问
-                'actions' => array('index', 'login', 'register'),//提到的都可以访问
+                'actions' => array('index', 'login', 'register', 'PageShow'),//提到的都可以访问
                 'users' => array('*'),//任何用户可以访问
             ),
             array(
@@ -105,6 +105,33 @@ class UserController extends Controller
         $user_infos = $user_model->findAllBySql($sql);
         /*         * 在视图显示信息* */
         $this->render('show', array('user_infos' => $user_infos));
+    }
+
+    public function actionPageShow()
+    {
+        /*
+         * 分页类组件使用
+         * 获取数据模型
+         */
+        $user_model = new User();
+        /*
+         * 实例化分页类对象
+         */
+        $cnt = $user_model->count();
+        $per = 3;
+        $page = new Pagination($cnt, $per);
+        /*
+         * 按照分页样式拼装sql语句进行查询
+         */
+        $sql = "select * from user $page->limit";
+        $user_infos = $user_model->findAllBySql($sql);
+        /*
+         * 通过数组0到8传递分页参数
+         */
+        $page_list = $page->fpage(array(3, 4, 5, 6, 7, 8));
+        echo $page_list;
+
+        $this->render('PageShow', array('user_infos' => $user_infos, 'page_list' => $page_list));
     }
 
     public function actionRegister()
