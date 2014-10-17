@@ -47,6 +47,15 @@ $this->breadcrumbs = array(
             <button type="button" id="login">登录</button>
         </td>
     </tr>
+    <tr>
+        <td>
+            <?php
+            if (Yii::app()->user->hasFlash('success')) {
+                echo Yii::app()->user->getFlash('success');
+            }
+            ?>
+        </td>
+    </tr>
 </table>
 <?php $this->endWidget(); ?>
 

@@ -112,7 +112,10 @@ class UserController extends Controller
         $user_model = new User();
         if (isset($_POST['User'])) {
             $user_model->attributes = $_POST['User'];
-            $user_model->save();
+            if ($user_model->save()) {
+                Yii::app()->user->setFlash('success', '注册成功');
+//                $this->redirect('./index.php/user/login');
+            }
         }
         $this->render('register', array('user_model' => $user_model));
     }
@@ -199,6 +202,8 @@ class UserController extends Controller
          */
         echo Yii::getPathOfAlias('system . web');
     }
+
+
 }
 
 ?>

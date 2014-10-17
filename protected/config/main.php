@@ -6,9 +6,13 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(
+    /*
+     * 设置的信息(basePath,name,defaultController,layout)是对CWebApplication和CApplication属性的重写
+     */
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'yii-test',
     'defaultController' => 'User',
+    'layout' => 'mine',
     // preloading 'log' component
     'preload' => array('log'),
 
@@ -37,7 +41,7 @@ return array(
             'allowAutoLogin' => true,
             'loginUrl' => 'login',
         ),
-// uncomment the following to enable URLs in path-format
+// uncomment the following to enabl e URLs in path-format
         'urlManager' => array(
             'urlFormat' => 'path',
             'rules' => array(
@@ -56,6 +60,11 @@ return array(
             'username' => 'root',
             'password' => '',
             'charset' => 'utf8',
+
+            'enableParamLogging' => YII_DEBUG,
+            //显示每个SQL语句与运行时间
+            'enableProfiling' => true,
+            //数据表的前缀设置
         ),
         'errorHandler' => array(
             // use 'site/error' action to display errors
@@ -69,11 +78,10 @@ return array(
                     'levels' => 'error, warning',
                 ),
                 // uncomment the following to show log messages on web pages
-                /*
+                //显示SQL语句查询信息
                 array(
-                    'class'=>'CWebLogRoute',
+                    'class' => 'CWebLogRoute',
                 ),
-                */
             ),
         ),
     ),

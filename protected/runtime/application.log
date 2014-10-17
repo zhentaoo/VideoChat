@@ -5043,3 +5043,1712 @@ Stack trace:
 #11 {main}
 REQUEST_URI=/yii-test/index.php/user/S1
 ---
+2014/10/15 03:12:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:12:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:29:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:34:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/login
+---
+2014/10/15 03:56:46 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.defaultContrller" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\framework\base\CModule.php(105): CComponent->__get('defaultContrlle...')
+#1 E:\xampp\htdocs\yii-test\protected\controllers\DefaultController.php(42): CModule->__get('defaultContrlle...')
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): DefaultController->actionApp()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('app')
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/app')
+#8 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yii-test/index.php/default/app
+---
+2014/10/15 04:56:21 [error] [php] Use of undefined constant sadfa - assumed 'sadfa' (E:\xampp\htdocs\yii-test\protected\views\user\register.php:57)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(120): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/register
+in E:\xampp\htdocs\yii-test\protected\views\user\register.php (57)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (120)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:00:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index.php/...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 05:02:40 [error] [exception.CException] exception 'CException' with message 'CWebUser and its behaviors do not have a method or closure named "getFlsh".' in E:\xampp\htdocs\framework\base\CComponent.php:266
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\views\user\register.php(54): CComponent->__call('getFlsh', Array)
+#1 E:\xampp\htdocs\yii-test\protected\views\user\register.php(54): CWebUser->getFlsh('success')
+#2 E:\xampp\htdocs\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#3 E:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#4 E:\xampp\htdocs\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#5 E:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#6 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(120): CController->render('register', Array)
+#7 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#8 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#15 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('register')
+#17 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#18 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii-test/index.php/user/register
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/register
+---
+2014/10/15 09:52:39 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('time')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/time')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/time
+---
