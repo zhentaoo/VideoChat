@@ -6,6 +6,7 @@ class User extends CActiveRecord
     public $password;
     public $password2;
     public $email;
+    public $verifyCode;
     private $_identity;
 
     /*
@@ -17,6 +18,7 @@ class User extends CActiveRecord
             'user_name' => '用户名',
             'password' => '密码',
             'password2' => '重复密码',
+            'verifyCode'=>'验证码',
             'email' => '邮箱'
         );
     }
@@ -25,6 +27,7 @@ class User extends CActiveRecord
     {
         return array(
             array('user_name', 'required', 'message' => '<font color="red">*用户名必填</font>'),
+            array('verifyCode', 'required', 'message' => '<font color="red">*验证码必填</font>'),
             array('password', 'required', 'message' => '<font color="red">*密码必填</font>'),
             array('password2', 'required', 'message' => '<font color="red">*重复密码必填</font>'),
             array('email', 'required', 'message' => '<font color="red">*邮箱必填</font>'),

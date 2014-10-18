@@ -6902,3 +6902,276 @@ REQUEST_URI=/yii-test/index.php/user/PageShow?&page=2
 in E:\xampp\htdocs\yii-test\protected\components\Pagination.php (150)
 in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (128)
 in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/17 14:04:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "capctha".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('capctha')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('capctha')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/capctha')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/capctha
+---
+2014/10/17 14:14:04 [error] [exception.CException] exception 'CException' with message 'Property "User.verifyCode" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(145): CComponent->__get('verifyCode')
+#1 E:\xampp\htdocs\framework\web\helpers\CHtml.php(2529): CActiveRecord->__get('verifyCode')
+#2 E:\xampp\htdocs\framework\web\helpers\CHtml.php(2252): CHtml::resolveValue(Object(User), 'verifyCode')
+#3 E:\xampp\htdocs\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(User), 'verifyCode', Array)
+#4 E:\xampp\htdocs\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(User), 'verifyCode', Array)
+#5 E:\xampp\htdocs\yii-test\protected\views\user\register.php(45): CActiveForm->textField(Object(User), 'verifyCode')
+#6 E:\xampp\htdocs\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#7 E:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#8 E:\xampp\htdocs\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#9 E:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('register', Array, true)
+#10 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(154): CController->render('register', Array)
+#11 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionRegister()
+#12 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#19 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('register')
+#21 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/register')
+#22 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/yii-test/index.php/user/register
+---
+2014/10/17 14:43:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "co".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('co')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('co')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/co')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/co
+---
+2014/10/17 14:44:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "computer".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('computer')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/17 14:45:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "computer".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('computer')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/17 14:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "computer".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('computer')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/17 14:46:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "computer".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('computer')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/17 14:47:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "computer".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('computer')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/17 14:50:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "logins".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('logins')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('logins')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/logins')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/logins
+---
+2014/10/18 03:01:36 [error] [php] md5() expects at most 2 parameters, 3 given (E:\xampp\htdocs\framework\web\widgets\captcha\CCaptchaAction.php:118)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(308): CCaptchaAction->runWithParams()
+#1 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/captcha?v=5441bbf05e63b
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/18 03:01:37 [error] [php] md5() expects at most 2 parameters, 3 given (E:\xampp\htdocs\framework\web\widgets\captcha\CCaptchaAction.php:118)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(308): CCaptchaAction->runWithParams()
+#1 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/captcha?v=5441bbf1c1493
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/18 03:01:38 [error] [php] md5() expects at most 2 parameters, 3 given (E:\xampp\htdocs\framework\web\widgets\captcha\CCaptchaAction.php:118)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(308): CCaptchaAction->runWithParams()
+#1 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#2 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/captcha?v=5441bbf1c1493
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/18 03:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "computer".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('computer')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/computer
+---
+2014/10/18 03:24:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "computer".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('computer')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/18 03:37:50 [error] [exception.CException] exception 'CException' with message 'Alias "application.controller.Computer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in E:\xampp\htdocs\framework\YiiBase.php:322
+Stack trace:
+#0 E:\xampp\htdocs\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 E:\xampp\htdocs\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(UserController), 'computer')
+#2 E:\xampp\htdocs\framework\web\CController.php(417): CController->createActionFromMap(Array, 'computer', 'computer')
+#3 E:\xampp\htdocs\framework\web\CController.php(259): CController->createAction('computer')
+#4 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#5 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#6 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/18 03:38:18 [error] [exception.CException] exception 'CException' with message 'Alias "application.controller.Computer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in E:\xampp\htdocs\framework\YiiBase.php:322
+Stack trace:
+#0 E:\xampp\htdocs\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 E:\xampp\htdocs\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(UserController), 'computer')
+#2 E:\xampp\htdocs\framework\web\CController.php(417): CController->createActionFromMap(Array, 'computer', 'computer')
+#3 E:\xampp\htdocs\framework\web\CController.php(259): CController->createAction('computer')
+#4 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#5 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#6 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/18 03:38:19 [error] [exception.CException] exception 'CException' with message 'Alias "application.controller.Computer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in E:\xampp\htdocs\framework\YiiBase.php:322
+Stack trace:
+#0 E:\xampp\htdocs\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 E:\xampp\htdocs\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(UserController), 'computer')
+#2 E:\xampp\htdocs\framework\web\CController.php(417): CController->createActionFromMap(Array, 'computer', 'computer')
+#3 E:\xampp\htdocs\framework\web\CController.php(259): CController->createAction('computer')
+#4 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#5 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#6 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/18 03:38:20 [error] [exception.CException] exception 'CException' with message 'Alias "application.controller.Computer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in E:\xampp\htdocs\framework\YiiBase.php:322
+Stack trace:
+#0 E:\xampp\htdocs\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 E:\xampp\htdocs\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(UserController), 'computer')
+#2 E:\xampp\htdocs\framework\web\CController.php(417): CController->createActionFromMap(Array, 'computer', 'computer')
+#3 E:\xampp\htdocs\framework\web\CController.php(259): CController->createAction('computer')
+#4 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#5 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#6 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/18 03:38:50 [error] [exception.CException] exception 'CException' with message 'Alias "application.controller.computer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in E:\xampp\htdocs\framework\YiiBase.php:322
+Stack trace:
+#0 E:\xampp\htdocs\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 E:\xampp\htdocs\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(UserController), 'computer')
+#2 E:\xampp\htdocs\framework\web\CController.php(417): CController->createActionFromMap(Array, 'computer', 'computer')
+#3 E:\xampp\htdocs\framework\web\CController.php(259): CController->createAction('computer')
+#4 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#5 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#6 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/18 03:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "computer".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('computer')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/18 03:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "computer".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('computer')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---
+2014/10/18 03:39:06 [error] [exception.CException] exception 'CException' with message 'Alias "application.controller.Computer" is invalid. Make sure it points to an existing PHP file and the file is readable.' in E:\xampp\htdocs\framework\YiiBase.php:322
+Stack trace:
+#0 E:\xampp\htdocs\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 E:\xampp\htdocs\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(UserController), 'computer')
+#2 E:\xampp\htdocs\framework\web\CController.php(417): CController->createActionFromMap(Array, 'computer', 'computer')
+#3 E:\xampp\htdocs\framework\web\CController.php(259): CController->createAction('computer')
+#4 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('computer')
+#5 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/computer')
+#6 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/yii-test/index.php/user/computer
+---

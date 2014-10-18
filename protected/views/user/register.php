@@ -41,6 +41,14 @@ $this->breadcrumbs = array(
     </tr>
 
     <tr>
+        <td><?php echo $form->labelEx($user_model, 'verifyCode'); ?></td>
+        <td><?php echo $form->textField($user_model, 'verifyCode'); ?></td>
+        <td><?php $this->widget('CCaptcha') ?></td>
+        <td><?php echo $form->error($user_model, 'verifyCode'); ?></td>
+
+    </tr>
+
+    <tr>
         <td><?php echo CHtml::submitButton('注册');
             ?></td>
         <td>

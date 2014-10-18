@@ -5,6 +5,19 @@
  */
 class UserController extends Controller
 {
+    function actions()
+    {
+        return array(
+            'captcha' => array('class' => 'system.web.widgets.captcha.CCaptchaAction'),
+            'computer' => array('class' => 'application.controllers.Computer'),
+
+        );
+        /*
+         * 我们在外边随便定义一个类(computer)，都可以这种方式访问
+         */
+
+    }
+
     function  filters()
     {
         return array('accessControl');
@@ -15,7 +28,7 @@ class UserController extends Controller
         return array(
             array(
                 'allow',//允许访问
-                'actions' => array('index', 'login', 'register', 'PageShow'),//提到的都可以访问
+                'actions' => array('error', 'computer', 'index', 'login', 'register', 'PageShow', 'captcha'),//提到的都可以访问
                 'users' => array('*'),//任何用户可以访问
             ),
             array(
@@ -129,7 +142,7 @@ class UserController extends Controller
          * 通过数组0到8传递分页参数
          */
         $page_list = $page->fpage(array(3, 4, 5, 6, 7, 8));
-        echo $page_list;
+//        echo $page_list;
 
         $this->render('PageShow', array('user_infos' => $user_infos, 'page_list' => $page_list));
     }
