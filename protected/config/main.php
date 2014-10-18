@@ -13,7 +13,7 @@ return array(
     'name' => 'yii-test',
     'defaultController' => 'User',
     'layout' => 'mine',
-    'theme'=>'children',
+    'theme' => 'children',
     // preloading 'log' component
     'preload' => array('log'),
 
@@ -25,14 +25,13 @@ return array(
 
     'modules' => array(
         // uncomment the following to enable the Gii tool
-        /*
-        'gii'=>array(
-            'class'=>'system.gii.GiiModule',
-            'password'=>'Enter Your Password Here',
+        'gii' => array(
+            'class' => 'system.gii.GiiModule',
+            'password' => '123',
             // If removed, Gii defaults to localhost only. Edit carefully to taste.
-            'ipFilters'=>array('127.0.0.1','::1'),
+            'ipFilters' => array('127.0.0.1', '::1'),
         ),
-        */
+        'admin',
     ),
 
     // application components

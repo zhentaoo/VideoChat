@@ -7175,3 +7175,11 @@ Stack trace:
 #8 {main}
 REQUEST_URI=/yii-test/index.php/user/computer
 ---
+2014/10/18 15:22:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/admin
+---
