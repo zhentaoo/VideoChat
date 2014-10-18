@@ -7183,3 +7183,13 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/yii-test/index.php/admin
 ---
+2014/10/18 15:38:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/manager')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/admin/manager/
+---
