@@ -18,7 +18,7 @@ class User extends CActiveRecord
             'user_name' => '用户名',
             'password' => '密码',
             'password2' => '重复密码',
-            'verifyCode'=>'验证码',
+            'verifyCode' => '验证码',
             'email' => '邮箱'
         );
     }
@@ -33,6 +33,7 @@ class User extends CActiveRecord
             array('email', 'required', 'message' => '<font color="red">*邮箱必填</font>'),
             array('email', 'email', 'message' => '<font color="red">*邮箱格式错误！！！</font>'),
             array("password2", "compare", "compareAttribute" => "password", "message" => "<font color='red'>*两次密码不一致</font>"),
+            array('verifyCode', 'captcha', 'message' => '<font color="red">*验证码错误</font>'),
             array('user_name', 'authenticate'),
         );
     }

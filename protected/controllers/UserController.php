@@ -8,7 +8,7 @@ class UserController extends Controller
     function actions()
     {
         return array(
-            'captcha' => array('class' => 'system.web.widgets.captcha.CCaptchaAction'),
+            'captcha' => array('class' => 'system.web.widgets.captcha.CCaptchaAction', 'width' => '80', 'height' => '35'),
             'computer' => array('class' => 'application.controllers.Computer'),
 
         );
