@@ -42,7 +42,7 @@ $this->breadcrumbs = array(
 
     <tr>
         <td><?php echo $form->labelEx($user_model, 'verifyCode'); ?></td>
-        <td><?php echo $form->textField($user_model, 'verifyCode'); ?></td>
+        <td><?php echo $form->textField($user_model, 'verifyCode', array('size' => 15, 'class' => 'inputBg', 'maxlength' => 6)); ?></td>
         <td><?php $this->widget('CCaptcha') ?></td>
         <td><?php echo $form->error($user_model, 'verifyCode'); ?></td>
 

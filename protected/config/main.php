@@ -13,6 +13,7 @@ return array(
     'name' => 'yii-test',
     'defaultController' => 'User',
     'layout' => 'mine',
+    'theme'=>'children',
     // preloading 'log' component
     'preload' => array('log'),
 
