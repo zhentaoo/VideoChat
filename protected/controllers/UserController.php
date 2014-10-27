@@ -29,7 +29,7 @@ class UserController extends Controller
             array(
                 'allow',//允许访问
                 'actions' => array('personal', 'welcom', 'submit','error', 'computer', 'index', 'login', 'register', 'PageShow', 'captcha', 'S3'),//提到的都可以访问
-                'users' => array('@'),//登录的用户可以访问
+                'users' => array('*'),//登录的用户可以访问
             ),
 
             array(

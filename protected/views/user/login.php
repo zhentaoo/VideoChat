@@ -8,7 +8,11 @@ $this->breadcrumbs = array(
     'Login',
 );
 ?>
-
+<script>
+    $(function () {
+        $("#real-login").click();
+    })
+</script>
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <button hidden="hidden" id="real-login" data-toggle="modal"
         data-target="#myModal" style="margin-left: 5%">
@@ -33,12 +37,13 @@ $this->breadcrumbs = array(
                 )); ?>
                 <div class="form-group">
                     <label>用户名</label>
-                    <?php echo $form->textField($login_model, 'user_name') ?>
+                    <?php echo $form->textField($login_model, 'user_name', array('class' => 'form-control', 'placeholder' => '用户名',
+                   'required'=>'required' )) ?>
                     <?php echo $form->error($login_model, 'user_name'); ?>
                 </div>
                 <div class="form-group">
                     <label>密码</label>
-                    <?php echo $form->passwordField($login_model, 'password') ?>
+                    <?php echo $form->passwordField($login_model, 'password', array('class' => 'form-control', 'placeholder' => '密码','required'=>'required')) ?>
                     <?php echo $form->error($login_model, 'password'); ?>
                 </div>
                 <div style="padding-bottom: 10px;padding-top: 15px">
