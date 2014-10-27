@@ -1,17 +1,6 @@
-<style>
-    table {
-        width: 85%;
-        border: 1px blue solid;
-        border-collapse: 0;
-        border-spacing: 0;
-    }
 
-    table td {
-        border: 1px gray solid;
-    }
-</style>
 <h2>user表信息</h2>
-<table>
+<table class="table table-hover">
     <?php
     foreach ($user_infos as $_v) {
         ?>

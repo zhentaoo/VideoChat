@@ -5,12 +5,12 @@
  */
 class UserController extends Controller
 {
+    public $layout = 'user';
     function actions()
     {
         return array(
             'captcha' => array('class' => 'system.web.widgets.captcha.CCaptchaAction', 'width' => '80', 'height' => '35'),
             'computer' => array('class' => 'application.controllers.Computer'),
-
         );
         /*
          * 我们在外边随便定义一个类(computer)，都可以这种方式访问
@@ -28,14 +28,10 @@ class UserController extends Controller
         return array(
             array(
                 'allow',//允许访问
-                'actions' => array('error', 'computer', 'index', 'login', 'register', 'PageShow', 'captcha'),//提到的都可以访问
-                'users' => array('*'),//任何用户可以访问
+                'actions' => array('personal', 'welcom', 'submit','error', 'computer', 'index', 'login', 'register', 'PageShow', 'captcha', 'S3'),//提到的都可以访问
+                'users' => array('@'),//登录的用户可以访问
             ),
-            array(
-                'allow',//允许访问
-                'actions' => array('welcom'),//提到的都可以访问
-                'users' => array('@'),//登陆的用户可以访问
-            ),
+
             array(
                 'allow',
                 'actions' => array('show'),
@@ -78,7 +74,6 @@ class UserController extends Controller
             if ($login_model->validate() && $login_model->login())
                 $this->redirect('welcom');
         }
-
         $this->render('login', array('login_model' => $login_model));
     }
 
@@ -131,7 +126,7 @@ class UserController extends Controller
          * 实例化分页类对象
          */
         $cnt = $user_model->count();
-        $per = 3;
+        $per = 30;
         $page = new Pagination($cnt, $per);
         /*
          * 按照分页样式拼装sql语句进行查询
@@ -141,10 +136,15 @@ class UserController extends Controller
         /*
          * 通过数组0到8传递分页参数
          */
-        $page_list = $page->fpage(array(3, 4, 5, 6, 7, 8));
+        $page_list = $page->fpage(array(3, 5, 7));
 //        echo $page_list;
 
         $this->render('PageShow', array('user_infos' => $user_infos, 'page_list' => $page_list));
+    }
+
+    public function actionPersonal()
+    {
+        $this->render('personal');
     }
 
     public function actionRegister()
@@ -161,6 +161,11 @@ class UserController extends Controller
     }
 
     function actionUpdate()
+    {
+
+    }
+
+    function actionSubmit()
     {
 
     }
@@ -196,6 +201,7 @@ class UserController extends Controller
          */
         Yii::app()->session->clear();
         Yii::app()->session->destroy();
+        $this->render('index');
     }
 
     function actionC1()

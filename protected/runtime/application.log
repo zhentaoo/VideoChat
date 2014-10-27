@@ -7193,3 +7193,1498 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/yii-test/index.php/admin/manager/
 ---
+2014/10/19 01:52:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/login".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/login')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/admin/login
+---
+2014/10/22 15:35:31 [error] [php] Undefined variable: contant (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:67)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (67)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/22 15:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/view')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/1
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow?&page=2
+---
+2014/10/22 15:58:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/view')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/1?&page=2
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow?&page=2
+---
+2014/10/22 15:58:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "showpage".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('showpage')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('showpage')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/showpage')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/showpage?&page=2
+---
+2014/10/23 04:47:35 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9, 3' at line 1. The SQL statement executed was: select * from user Limit -9, 3.
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (140)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/23 04:47:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-9, 3' at line 1. The SQL statement executed was: select * from user Limit -9, 3' in E:\xampp\htdocs\framework\db\CDbCommand.php:543
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1581): CDbCommand->queryAll()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(140): CActiveRecord->findAllBySql('select * from u...')
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionPageShow()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('pageShow')
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/pageShow')
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-test/index.php/user/pageShow?&page=-2
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/pageShow?&page=2
+---
+2014/10/23 13:30:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/10/23 13:31:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/10/23 13:32:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/10/23 13:46:07 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+---
+2014/10/26 02:52:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "personal".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('personal')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('personal')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/personal')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/personal
+---
+2014/10/26 02:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sds".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('sds')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('sds')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/sds')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/sds
+---
+2014/10/26 02:43:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('user')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('user')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/submi...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/user/submit
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/personal
+---
+2014/10/26 02:43:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('user')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('user')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/submi...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/user/submit
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/personal
+---
+2014/10/26 02:43:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('user')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('user')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/user/
+---
+2014/10/26 02:44:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('user')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('user')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/submi...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/user/submit
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/personal
+---
+2014/10/26 02:44:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('user')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('user')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/submi...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/user/submit
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/personal
+---
+2014/10/26 03:01:16 [error] [php] Undefined variable: form (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:30)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (30)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 03:02:28 [error] [php] Undefined variable: login_model (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:35)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (35)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 03:02:52 [error] [php] Undefined variable: login_model (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:45)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (45)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 03:02:53 [error] [php] Undefined variable: login_model (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:45)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (45)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 03:02:54 [error] [php] Undefined variable: login_model (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:45)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (45)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 03:02:55 [error] [php] Undefined variable: login_model (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:45)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (45)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 03:02:55 [error] [php] Undefined variable: login_model (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:45)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (45)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 03:02:55 [error] [php] Undefined variable: login_model (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:45)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (45)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 03:08:13 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "mine".' in E:\xampp\htdocs\framework\web\CController.php:878
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('mine', Array, true)
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): CController->render('mine', Array)
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+HTTP_REFERER=http://127.0.0.1/yii-test/
+---
+2014/10/26 03:17:42 [error] [php] include(): Filename cannot be empty (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:19:59 [error] [php] include(Yii::app()-&gt;request-&gt;baseUrl/views/user/login.php): failed to open stream: Invalid argument (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:21:09 [error] [php] include(/yii-test/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:21:42 [error] [php] include(/yii-testprotected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:21:50 [error] [php] include(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:24:24 [error] [php] include(../user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:25:30 [error] [php] include(../user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:31:31 [error] [php] include(echo SITE_URL./user/login): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+2014/10/26 03:32:19 [error] [php] include(): http:// wrapper is disabled in the server configuration by allow_url_include=0 (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+2014/10/26 03:32:25 [error] [php] include(127.0.0.1/yii-test/index.php/user/login): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+2014/10/26 03:35:04 [error] [php] require_once(/yii-testprotected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+2014/10/26 03:35:08 [error] [php] require_once(/yii-testprotected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:35:20 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:35:38 [error] [php] include(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:06 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:07 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:07 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:07 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:08 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:08 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:08 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:08 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:09 [error] [php] require_once(/yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:43 [error] [php] require_once(yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:44 [error] [php] require_once(yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:44 [error] [php] require_once(yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:45 [error] [php] require_once(yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:45 [error] [php] require_once(yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:45 [error] [php] require_once(yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:45 [error] [php] require_once(yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:37:46 [error] [php] require_once(yii-test/protected/views/user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 03:38:13 [error] [php] require_once(../user/login.php): failed to open stream: No such file or directory (E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php:16)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#1 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(59): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\views\layouts\mine.php (16)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (59)
+2014/10/26 04:03:51 [error] [php] Undefined variable: form (E:\xampp\htdocs\yii-test\protected\views\user\login.php:19)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\user\login.php (19)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 04:04:35 [error] [php] Undefined variable: form (E:\xampp\htdocs\yii-test\protected\views\user\login.php:20)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(82): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionLogin()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/login
+in E:\xampp\htdocs\yii-test\protected\views\user\login.php (20)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (82)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/26 08:16:01 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('S3')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/S3')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/S3
+---
+2014/10/26 08:21:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/?LoginForm%5Buser_name%5D=&LoginForm%5Bpassword%5D=
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/26 08:21:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/y...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/yii-test/
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/yii-test/?LoginForm%5Buser_name%5D=&LoginForm%5Bpassword%5D=
+---
+2014/10/26 08:21:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/y...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/yii-test/yii-test/
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/yii-test/yii-test/
+---
+2014/10/26 08:21:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/y...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/yii-test/yii-test/yii-test/
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/yii-test/yii-test/yii-test/
+---
+2014/10/26 08:21:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/y...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/yii-test/yii-test/yii-test/yii-test/
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/yii-test/yii-test/yii-test/yii-test/
+---
+2014/10/26 08:21:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/y...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/yii-test/yii-test/yii-test/yii-test/
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/yii-test/yii-test/yii-test/yii-test/
+---
+2014/10/26 08:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/y...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/yii-test/yii-test/yii-test/yii-test/
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/yii-test/yii-test/yii-test/yii-test/
+---
+2014/10/26 08:23:15 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('logout')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/logout')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/logout
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/10/26 08:23:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('logout')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/logout')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/logout
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/show
+---
+2014/10/26 08:23:37 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('logout')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/logout')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/logout
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/show
+---
+2014/10/26 08:39:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/i...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/index.php/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/26 08:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/i...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/index.php/user/yii-test/index.php/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/yii-test/index.php/user/S3
+---
+2014/10/26 08:39:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/i...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/index.php/user/yii-test/index.php/user/yii-test/index.php/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/yii-test/index.php/user/yii-test/index.php/user/S3
+---
+2014/10/26 08:40:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii-test/index.php/user/S3".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('yii-test/index....')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/yii-test/index.php/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/
+---
+2014/10/26 08:40:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii-test/index.php/user/S3".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('yii-test/index....')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/yii-test/index.php/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/
+---
+2014/10/26 08:40:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "127.0.0.1/yii-test/index.php/user/S3".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('127.0.0.1/yii-t...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/127.0.0.1/yii-test/index.php/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/
+---
+2014/10/26 08:41:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "127.0.0.1/yii-test/index.php/user/S3".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('127.0.0.1/yii-t...')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/127.0.0.1/yii-test/index.php/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/
+---
+2014/10/26 08:42:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/i...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/index.php/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/26 08:42:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/i...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/index.php/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/26 08:42:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/i...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/index.php/user/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/yii-test/index.php/user/S3
+---
+2014/10/26 08:42:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "user".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('user')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('user')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/user/S3')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/user/S3
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/login
+---
+2014/10/26 09:33:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/1.jpg".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('images/1.jpg')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php//images/1.jpg
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php
+---
+2014/10/26 10:05:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site/logout".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('site/logout')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/site/logout
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php
+---
+2014/10/27 03:17:10 [error] [php] Undefined variable: login_model (E:\xampp\htdocs\yii-test\protected\views\layouts\default.php:32)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): DefaultController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\DefaultController.php(27): DefaultController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\CController.php(286): DefaultController->runAction()
+#5 E:\xampp\htdocs\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#6 E:\xampp\htdocs\framework\web\CWebApplication.php(282): DefaultController->run()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#8 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/
+in E:\xampp\htdocs\yii-test\protected\views\layouts\default.php (32)
+in E:\xampp\htdocs\yii-test\protected\controllers\DefaultController.php (27)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/10/27 03:19:05 [error] [exception.CException] exception 'CException' with message 'DefaultController has an extra endWidget() call in its view.' in E:\xampp\htdocs\framework\web\CBaseController.php:210
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\views\layouts\default.php(42): CBaseController->endWidget()
+#1 E:\xampp\htdocs\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#2 E:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#3 E:\xampp\htdocs\framework\web\CController.php(784): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#4 E:\xampp\htdocs\yii-test\protected\controllers\DefaultController.php(27): CController->render('index')
+#5 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#6 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 E:\xampp\htdocs\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('')
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#11 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yii-test/
+---
+2014/10/27 03:37:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "welcom".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('welcom')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('welcom')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/welcom')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/welcom
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php
+---
+2014/10/27 03:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "welcom".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('welcom')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('welcom')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('default/welcom')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/default/welcom
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php
+---

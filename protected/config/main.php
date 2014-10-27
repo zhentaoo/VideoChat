@@ -11,8 +11,8 @@ return array(
      */
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
     'name' => 'yii-test',
-    'defaultController' => 'User',
-    'layout' => 'mine',
+    'defaultController' => 'default',
+    'layout' => 'user',
     'theme' => 'children',
     // preloading 'log' component
     'preload' => array('log'),
@@ -68,7 +68,7 @@ return array(
         ),
         'errorHandler' => array(
             // use 'site/error' action to display errors
-            'errorAction' => 'default/error',
+            'errorAction' => 'user/error',
         ),
         'log' => array(
             'class' => 'CLogRouter',
