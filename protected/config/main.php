@@ -66,10 +66,10 @@ return array(
             'enableProfiling' => true,
             //数据表的前缀设置
         ),
-        'errorHandler' => array(
-            // use 'site/error' action to display errors
-            'errorAction' => 'user/error',
-        ),
+//        'errorHandler' => array(
+//            // use 'site/error' action to display errors
+//            'errorAction' => 'default/index',
+//        ),
         'log' => array(
             'class' => 'CLogRouter',
             'routes' => array(

@@ -6,7 +6,7 @@ class User extends CActiveRecord
     public $password;
     public $password2;
     public $email;
-    public $verifyCode;
+//    public $verifyCode;
     private $_identity;
 
     /*
@@ -18,8 +18,8 @@ class User extends CActiveRecord
             'user_name' => '用户名',
             'password' => '密码',
             'password2' => '重复密码',
-            'verifyCode' => '验证码',
-            'email' => '邮箱'
+//            'verifyCode' => '验证码',
+            'email' => '邮箱',
         );
     }
 
@@ -27,14 +27,15 @@ class User extends CActiveRecord
     {
         return array(
             array('user_name', 'required', 'message' => '<font color="red">*用户名必填</font>'),
-            array('verifyCode', 'required', 'message' => '<font color="red">*验证码必填</font>'),
             array('password', 'required', 'message' => '<font color="red">*密码必填</font>'),
             array('password2', 'required', 'message' => '<font color="red">*重复密码必填</font>'),
             array('email', 'required', 'message' => '<font color="red">*邮箱必填</font>'),
             array('email', 'email', 'message' => '<font color="red">*邮箱格式错误！！！</font>'),
             array("password2", "compare", "compareAttribute" => "password", "message" => "<font color='red'>*两次密码不一致</font>"),
-            array('verifyCode', 'captcha', 'message' => '<font color="red">*验证码错误</font>'),
-            array('user_name', 'authenticate'),
+            array('user_name', 'unique', 'message' => '<font color="red">*用户名' . $this->user_name . '已存在</font>'),
+            array('email', 'unique', 'message' => '<font color="red">*邮箱' . $this->email . '已被注册</font>'),
+            //array('verifyCode', 'required', 'message' => '<font color="red">*验证码必填</font>'),
+            //array('verifyCode', 'captcha', 'message' => '<font color="red">*验证码错误</font>'),
         );
     }
 

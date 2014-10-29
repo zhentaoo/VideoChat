@@ -6,6 +6,7 @@
 class UserController extends Controller
 {
     public $layout = 'user';
+
     function actions()
     {
         return array(
@@ -28,8 +29,14 @@ class UserController extends Controller
         return array(
             array(
                 'allow',//允许访问
-                'actions' => array('personal', 'welcom', 'submit','error', 'computer', 'index', 'login', 'register', 'PageShow', 'captcha', 'S3'),//提到的都可以访问
+                'actions' => array('index', 'logout'),//提到的都可以访问
                 'users' => array('*'),//登录的用户可以访问
+            ),
+
+            array(
+                'allow',//允许访问
+                'actions' => array('personal', 'welcom', 'submit', 'error', 'computer', 'PageShow', 'captcha', 'S3'),//提到的都可以访问
+                'users' => array('@'),//登录的用户可以访问
             ),
 
             array(
@@ -64,23 +71,11 @@ class UserController extends Controller
         $this->render('welcom');
     }
 
-    public function actionLogin()
-    {
-
-        $login_model = new LoginForm;
-        if (isset($_POST['LoginForm'])) {
-            $login_model->attributes = $_POST['LoginForm'];
-            /**validate只校验不保存，和save()的区别**/
-            if ($login_model->validate() && $login_model->login())
-                $this->redirect('welcom');
-        }
-        $this->render('login', array('login_model' => $login_model));
-    }
-
     public function actionLogout()
     {
-
-        $this->redirect("index");
+        Yii::app()->session->clear();
+        Yii::app()->session->destroy();
+        $this->redirect("/yii-test");
     }
 
     public function actionShow()
@@ -98,7 +93,7 @@ class UserController extends Controller
         /*         * 获取全部商品信息findAll()* */
         // $user_infos = $user_model -> findAll();
 
-        /*         * 获取全部数据的名字* */
+        /** 获取全部数据的名字**/
         // foreach ($user_infos as $_v) {
         // echo $_v -> user_name . ' < br>';
         // echo $_v -> user_id . ' < br>';
@@ -126,7 +121,7 @@ class UserController extends Controller
          * 实例化分页类对象
          */
         $cnt = $user_model->count();
-        $per = 30;
+        $per = 50;
         $page = new Pagination($cnt, $per);
         /*
          * 按照分页样式拼装sql语句进行查询
