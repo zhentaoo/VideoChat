@@ -27,7 +27,7 @@ return array(
         // uncomment the following to enable the Gii tool
         'gii' => array(
             'class' => 'system.gii.GiiModule',
-            'password' => '123',
+            'password' => '123456',
             // If removed, Gii defaults to localhost only. Edit carefully to taste.
             'ipFilters' => array('127.0.0.1', '::1'),
         ),
@@ -66,10 +66,10 @@ return array(
             'enableProfiling' => true,
             //数据表的前缀设置
         ),
-//        'errorHandler' => array(
-//            // use 'site/error' action to display errors
-//            'errorAction' => 'default/index',
-//        ),
+        'errorHandler' => array(
+            // use 'site/error' action to display errors
+            'errorAction' => 'default/error',
+        ),
         'log' => array(
             'class' => 'CLogRouter',
             'routes' => array(

@@ -5,18 +5,20 @@
  */
 class UserController extends Controller
 {
-    public $layout = 'user';
+    public $layout = 'user_layout';
+    public $uploadedFile;
+    public $img = null;
 
     function actions()
     {
         return array(
             'captcha' => array('class' => 'system.web.widgets.captcha.CCaptchaAction', 'width' => '80', 'height' => '35'),
             'computer' => array('class' => 'application.controllers.Computer'),
+            array('uploadedFile', 'file', 'types' => 'jpg,gif,png'),
         );
         /*
          * 我们在外边随便定义一个类(computer)，都可以这种方式访问
          */
-
     }
 
     function  filters()
@@ -29,13 +31,13 @@ class UserController extends Controller
         return array(
             array(
                 'allow',//允许访问
-                'actions' => array('index', 'logout'),//提到的都可以访问
+                'actions' => array('App'),//提到的都可以访问
                 'users' => array('*'),//登录的用户可以访问
             ),
 
             array(
                 'allow',//允许访问
-                'actions' => array('personal', 'welcom', 'submit', 'error', 'computer', 'PageShow', 'captcha', 'S3'),//提到的都可以访问
+                'actions' => array('logout', 'upfile', 'index', 'personal', 'welcom', 'submit', 'error', 'computer', 'PageShow', 'captcha', 'S3'),//提到的都可以访问
                 'users' => array('@'),//登录的用户可以访问
             ),
 
@@ -59,7 +61,7 @@ class UserController extends Controller
 
     public function actionIndex()
     {
-        $this->render("index");
+        $this->render("index", array('img' => '$img'));
     }
 
     public function actionWelcom()
@@ -68,7 +70,9 @@ class UserController extends Controller
 //            $guest = '游客';
 //            $this->render('index', array('guest' => $guest));
 //        } else
-        $this->render('welcom');
+        $img = new img();
+
+        $this->render('welcom', array('img' => $img));
     }
 
     public function actionLogout()
@@ -90,7 +94,7 @@ class UserController extends Controller
         // echo $user_infos -> user_id.' < br>';
         // echo $user_infos -> password.' < br>';
 
-        /*         * 获取全部商品信息findAll()* */
+        /** 获取全部商品信息findAll()* */
         // $user_infos = $user_model -> findAll();
 
         /** 获取全部数据的名字**/
@@ -140,6 +144,40 @@ class UserController extends Controller
     public function actionPersonal()
     {
         $this->render('personal');
+    }
+
+    public function actionUpfile()
+    {
+        /*
+         * 图片上传
+         */
+        $model = new Img();
+        if (isset($_POST['Img'])) {
+            //获取一个CUploadfile的实例
+            $file = CUploadedFile::getInstance($model, 'url');
+            //判断实例化是否成功 将图片重命名
+            if (is_object($file) && get_class($file) === 'CUploadedFile') {
+                $model->url = 'images/upfile/_' . time() . '_' . rand(0, 9999) . '.' . $file->extensionName;
+                $model->id = time();
+                $model->name = Yii::app()->user->name;
+                $model->size = $file->size;
+            } else {
+                $model->url = 'images/upfile/no.jpg';
+            }
+            //将表中的其他的选项保存到数据表中  并将文件开始上传
+            if ($model->save()) {
+                if (is_object($file) && get_class($file) === 'CUploadedFile') {
+                    //调用save方法，将命名和路径以参数形式传递
+                    $file->saveAs($model->url);
+//                    echo "上传成功";
+//                    echo '<br>' . $file->name . '<br>' . $file->size . '<br>' . $file->tempName;
+                }   // 上传图片
+                else {
+                    echo "上传失败";
+                }
+            }
+        }
+        $this->render('upfile', array('model' => $model));
     }
 
     public function actionRegister()
@@ -244,6 +282,25 @@ class UserController extends Controller
         echo Yii::getPathOfAlias('system . web');
     }
 
+    function actionApp()
+    {
+        /*
+         * 在config/main.php中定义
+         */
+        echo Yii::app()->defaultController . '<br>';
+        echo Yii::app()->layout . '<br>';
+        echo Yii::app()->name . '<br>';
+        echo Yii::app()->baseUrl . '<br>';
+        echo Yii::app()->user->name . '<br>';
+        echo Yii::app()->basePath . '<br>';
+
+        $name = Yii::app()->user->name;
+        $img = new Img();
+        $var = $img->findAllBySql("select url from img where name ='$name'");
+        foreach ($var as $_v) {
+            echo $_v->url . '<br>';
+        }
+    }
 
 }
 
