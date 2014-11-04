@@ -149,7 +149,7 @@ class UserController extends Controller
     public function actionUpfile()
     {
         /*
-         * 图片上传
+         * 图片上传,若存在，删除旧图，上传新图
          */
         $model = new Img();
         if (isset($_POST['Img'])) {
@@ -157,22 +157,32 @@ class UserController extends Controller
             $file = CUploadedFile::getInstance($model, 'url');
             //判断实例化是否成功 将图片重命名
             if (is_object($file) && get_class($file) === 'CUploadedFile') {
-                $model->url = 'images/upfile/_' . time() . '_' . rand(0, 9999) . '.' . $file->extensionName;
+                $model->url = 'images/upfile/' . Yii::app()->user->name . '.' . $file->extensionName;
                 $model->id = time();
                 $model->name = Yii::app()->user->name;
                 $model->size = $file->size;
             } else {
-                $model->url = 'images/upfile/no.jpg';
+                $model->url = 'images/nopic.jpg';
             }
+
+            /*
+             * 如果图片存在,(包括数据库中的url记录，和images文件下的图片)删除该记录
+             */
+            if (is_file($model->url)) {
+                unlink($model->url);
+                Img::model()->deleteAll('name=:name', array(':name' => Yii::app()->user->name));
+            }
+
             //将表中的其他的选项保存到数据表中  并将文件开始上传
             if ($model->save()) {
                 if (is_object($file) && get_class($file) === 'CUploadedFile') {
-                    //调用save方法，将命名和路径以参数形式传递
+                    /*
+                     * 上传图片，将图片上传到$model->url这个路径下.调用save方法，将命名和路径以参数形式传递
+                     */
                     $file->saveAs($model->url);
-//                    echo "上传成功";
-//                    echo '<br>' . $file->name . '<br>' . $file->size . '<br>' . $file->tempName;
-                }   // 上传图片
-                else {
+                    $success = '上传头像成功';
+                    $this->redirect('personal', array('success' => $success));
+                } else {
                     echo "上传失败";
                 }
             }
@@ -254,7 +264,6 @@ class UserController extends Controller
         $ck2 = new CHttpCookie('hobby', '男');
         $ck2->expire = time() + 3600;
         Yii::app()->request->cookies['hobby'] = $ck2;
-
         echo "cookie make success";
     }
 
@@ -269,6 +278,9 @@ class UserController extends Controller
 
     function actionC3()
     {
+        /*
+         * 删除cookie
+         */
         unset(Yii::app()->request->cookies['sex']);
 
     }
@@ -296,10 +308,29 @@ class UserController extends Controller
 
         $name = Yii::app()->user->name;
         $img = new Img();
+
+        echo '<br>findAllBySql: ';
         $var = $img->findAllBySql("select url from img where name ='$name'");
         foreach ($var as $_v) {
             echo $_v->url . '<br>';
         }
+
+        echo 'find: ';
+        $var2 = $img->find('size=:size', array(':size' => '27796'));
+        if ($var2 != null)
+            echo $var2->url;
+        /*
+         * 如果是find查询出来的结果，save相当于update
+         */
+        $var2->name = 'sssdfsdf';
+        $var2->save();
+
+//        $var3=new Img();
+//        $var3->name='李震s涛';
+//        $var3->url='sadfasd';
+//        $var3->id='sdf';
+//        $var3->size='34';
+//        $var3->save();
     }
 
 }

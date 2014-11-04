@@ -16889,3 +16889,1462 @@ Stack trace:
 REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
 HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
 ---
+2014/11/03 10:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/03 10:48:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/03 11:08:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/03 11:17:56 [error] [php] Invalid argument supplied for foreach() (E:\xampp\htdocs\framework\db\schema\CDbCommandBuilder.php:670)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionApp()
+#1 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#3 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#6 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (305)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:19:35 [error] [php] Invalid argument supplied for foreach() (E:\xampp\htdocs\framework\db\schema\CDbCommandBuilder.php:670)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionApp()
+#1 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#3 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#6 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (305)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:23:40 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'where clause'. The SQL statement executed was: SELECT * FROM `img` `t` WHERE user_name LIMIT 1. Bound with 0='�'.
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (305)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:23:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_name' in 'where clause'. The SQL statement executed was: SELECT * FROM `img` `t` WHERE user_name LIMIT 1. Bound with 0='�'' in E:\xampp\htdocs\framework\db\CDbCommand.php:543
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(305): CActiveRecord->find('user_name', '?????????')
+#4 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionApp()
+#5 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#12 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('app')
+#14 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/app')
+#15 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-test/index.php/user/app
+---
+2014/11/03 11:24:57 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:31:43 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:31:44 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:31:45 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:31:49 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:32:34 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:32:45 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:32:46 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:32:46 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:36:12 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:42:47 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 11:42:48 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 12:54:11 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:306)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (306)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 12:54:54 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:307)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (307)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 13:29:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/03 13:53:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sdf' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `img` (`name`, `url`, `id`, `size`) VALUES (:yp0, :yp1, :yp2, :yp3). Bound with :yp0='李震s涛', :yp1='sadfasd', :yp2='sdf', :yp3='34'.
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (316)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 13:53:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'sdf' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `img` (`name`, `url`, `id`, `size`) VALUES (:yp0, :yp1, :yp2, :yp3). Bound with :yp0='李震s涛', :yp1='sadfasd', :yp2='sdf', :yp3='34'' in E:\xampp\htdocs\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(316): CActiveRecord->save()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionApp()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('app')
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/app')
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-test/index.php/user/app
+---
+2014/11/03 14:10:15 [error] [php] Creating default object from empty value (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:311)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (311)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 14:14:05 [error] [php] Creating default object from empty value (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:311)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (311)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 14:15:41 [error] [php] Creating default object from empty value (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:311)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (311)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 14:15:42 [error] [php] Creating default object from empty value (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:311)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (311)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/03 14:15:43 [error] [php] Creating default object from empty value (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:311)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/app
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (311)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 02:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:26:20 [error] [php] move_uploaded_file(): The second argument to copy() function cannot be a directory (E:\xampp\htdocs\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionUpfile()
+#1 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#3 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#6 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/upfile
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (171)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 02:28:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:28:36 [error] [php] move_uploaded_file(images/李震涛.jpg): failed to open stream: Invalid argument (E:\xampp\htdocs\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionUpfile()
+#1 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#3 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#6 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/upfile
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (172)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 02:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:28:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:29:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:29:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:29:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:30:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:32:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:32:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:54:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:54:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:54:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:57:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:57:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:57:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:57:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:58:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 02:58:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:07:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:07:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:08:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:08:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:08:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:10:38 [error] [php] move_uploaded_file(images/upfile/_李震涛.jpg): failed to open stream: Invalid argument (E:\xampp\htdocs\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionUpfile()
+#1 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#3 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#6 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/upfile
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (179)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 03:12:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:12:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:14:07 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\views\layouts\user_layout.php:43)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(146): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionPersonal()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/personal
+in E:\xampp\htdocs\yii-test\protected\views\layouts\user_layout.php (43)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (146)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 03:14:13 [error] [php] Trying to get property of non-object (E:\xampp\htdocs\yii-test\protected\views\layouts\user_layout.php:43)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(784): UserController->renderFile()
+#1 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(64): UserController->render()
+#2 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#3 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/
+in E:\xampp\htdocs\yii-test\protected\views\layouts\user_layout.php (43)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (64)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 03:15:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:15:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:15:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:15:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:26:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:27:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:27:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:27:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:30:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:30:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:31:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:31:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:32:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:34:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:37:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:38:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:39:31 [error] [php] Undefined variable: success (E:\xampp\htdocs\yii-test\protected\views\user\personal.php:5)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(146): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionPersonal()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/personal
+in E:\xampp\htdocs\yii-test\protected\views\user\personal.php (5)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (146)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 03:39:48 [error] [php] Undefined variable: success (E:\xampp\htdocs\yii-test\protected\views\user\personal.php:5)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(146): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionPersonal()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/personal
+in E:\xampp\htdocs\yii-test\protected\views\user\personal.php (5)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (146)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 03:40:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:41:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:42:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:42:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:49:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:49:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:50:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:50:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:50:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:52:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:53:29 [error] [php] Undefined variable: file (E:\xampp\htdocs\yii-test\protected\views\user\upfile.php:158)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(190): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionUpfile()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/upfile
+in E:\xampp\htdocs\yii-test\protected\views\user\upfile.php (158)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (190)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 03:54:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:54:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:54:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:54:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:54:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:54:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:55:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:56:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 03:56:21 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 04:07:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 04:07:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
