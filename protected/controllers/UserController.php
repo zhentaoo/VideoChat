@@ -7,7 +7,6 @@ class UserController extends Controller
 {
     public $layout = 'user_layout';
     public $uploadedFile;
-    public $img = null;
 
     function actions()
     {
@@ -31,13 +30,13 @@ class UserController extends Controller
         return array(
             array(
                 'allow',//允许访问
-                'actions' => array('App'),//提到的都可以访问
-                'users' => array('*'),//登录的用户可以访问
+                'actions' => array('s1', 's2', 'App'),//提到的都可以访问
+                'users' => array('*'),
             ),
 
             array(
                 'allow',//允许访问
-                'actions' => array('logout', 'upfile', 'index', 'personal', 'welcom', 'submit', 'error', 'computer', 'PageShow', 'captcha', 'S3'),//提到的都可以访问
+                'actions' => array('VideoList', 'videoRoom', 'logout', 'upfile', 'index', 'personal', 'welcom', 'submit', 'error', 'computer', 'PageShow', 'captcha', 'S3'),//提到的都可以访问
                 'users' => array('@'),//登录的用户可以访问
             ),
 
@@ -71,15 +70,7 @@ class UserController extends Controller
 //            $this->render('index', array('guest' => $guest));
 //        } else
         $img = new img();
-
         $this->render('welcom', array('img' => $img));
-    }
-
-    public function actionLogout()
-    {
-        Yii::app()->session->clear();
-        Yii::app()->session->destroy();
-        $this->redirect("/yii-test");
     }
 
     public function actionShow()
@@ -152,13 +143,14 @@ class UserController extends Controller
          * 图片上传,若存在，删除旧图，上传新图
          */
         $model = new Img();
+        $user_id = User::model()->find('user_name=:name', array(':name' => Yii::app()->user->name))->id;
         if (isset($_POST['Img'])) {
             //获取一个CUploadfile的实例
             $file = CUploadedFile::getInstance($model, 'url');
             //判断实例化是否成功 将图片重命名
             if (is_object($file) && get_class($file) === 'CUploadedFile') {
-                $model->url = 'images/upfile/' . Yii::app()->user->name . '.' . $file->extensionName;
-                $model->id = time();
+                $model->url = 'images/upfile/' . $user_id . '.' . $file->extensionName;
+                $model->id = $user_id;
                 $model->name = Yii::app()->user->name;
                 $model->size = $file->size;
             } else {
@@ -203,14 +195,35 @@ class UserController extends Controller
         $this->render('register', array('user_model' => $user_model));
     }
 
-    function actionUpdate()
+    function actionVideoRoom()
     {
-
+        $this->render('VideoRoom');
     }
 
-    function actionSubmit()
+    function actionVideoList()
     {
+        $model = new Video();
 
+        if (isset($_POST['Video'])) {
+            $model->attributes = $_POST['Video'];
+            $model->save();
+            $this->redirect('VideoRoom?id=22');
+        }
+
+        $cnt = $model->count();
+        $per = 20;
+        $page = new Pagination($cnt, $per);
+        /*
+         * 按照分页样式拼装sql语句进行查询
+         */
+        $sql = "select * from video $page->limit";
+        $videoList = $model->findAllBySql($sql);
+        /*
+         * 通过数组0到8传递分页参数
+         */
+        $page_list = $page->fpage(array(3, 5, 7));
+//        echo $page_list;
+        $this->render('VideoList', array('model' => $model, 'videoList' => $videoList, 'page_list' => $page_list));
     }
 
     function actionError()
@@ -220,15 +233,18 @@ class UserController extends Controller
 
     function actionS1()
     {
-        Yii::app()->session['user_name'] = 'zhangsan';
-        Yii::app()->session['email'] = 'sdf@qq . com';
+        $arr = array('name' => 'zs', 'psw' => '123');
+        Yii::app()->session['user_name'] = $arr;
         echo 'make session success';
     }
 
     function actionS2()
     {
-        echo Yii::app()->session['user_name'] . ' < br>';
-        echo Yii::app()->session['email'] . ' < br>';
+//        var_dump(Yii::app()->session);
+        foreach (Yii::app()->session as $key => $val) {
+            echo '<br>' . Yii::app()->session['user_name']['name'] . '<br>';
+        }
+
         echo 'use session success';
     }
 

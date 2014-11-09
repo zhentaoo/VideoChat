@@ -18348,3 +18348,2255 @@ Stack trace:
 REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
 HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
 ---
+2014/11/04 08:17:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\framework\web\CController.php:336
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 E:\xampp\htdocs\framework\web\CController.php(1116): CFilterChain->run()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#10 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('delete')
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('manager/delete/...')
+#13 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/yii-test/index.php/manager/delete/r?ajax=manager-grid
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/manager/admin
+---
+2014/11/04 08:25:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\framework\web\CController.php:1118
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('manager/delete')
+#10 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii-test/index.php?r=manager/delete&id=ss
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php?r=manager/admin
+---
+2014/11/04 08:25:26 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\framework\web\CController.php:1118
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('manager/delete')
+#10 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii-test/index.php?r=manager/delete&id=ss
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php?r=manager/admin
+---
+2014/11/04 08:25:30 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in E:\xampp\htdocs\framework\web\CController.php:1118
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterPostOnly(Object(CFilterChain))
+#1 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('delete')
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('manager/delete')
+#10 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii-test/index.php?r=manager/delete
+---
+2014/11/04 11:51:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('video')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/video')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/video
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/welcom
+---
+2014/11/04 12:32:49 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/11/04 12:33:53 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/11/04 12:38:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/video
+---
+2014/11/04 13:25:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 13:27:02 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/video
+---
+2014/11/04 13:27:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 13:34:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 13:40:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 13:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/04 13:40:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/04 13:40:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/04 13:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/04 13:40:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/04 13:40:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/04 13:41:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/04 13:41:14 [error] [php] move_uploaded_file(images/upfile/李震涛.jpg): failed to open stream: Invalid argument (E:\xampp\htdocs\framework\web\CUploadedFile.php:198)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionUpfile()
+#1 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#2 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#3 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#4 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#5 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#6 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#7 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#8 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#9 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#11 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/upfile
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (182)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/04 13:42:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 12:07:52 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/personal
+---
+2014/11/06 13:32:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 13:57:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 13:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 13:58:05 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/11/06 13:58:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/video
+---
+2014/11/06 14:11:42 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'. The SQL statement executed was: SELECT * FROM `user` `t` WHERE name=:name LIMIT 1. Bound with :name='sd'.
+in E:\xampp\htdocs\yii-test\protected\views\layouts\user_layout.php (26)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (141)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/06 14:11:42 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'. The SQL statement executed was: SELECT * FROM `user` `t` WHERE name=:name LIMIT 1. Bound with :name='sd'' in E:\xampp\htdocs\framework\db\CDbCommand.php:543
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 E:\xampp\htdocs\yii-test\protected\views\layouts\user_layout.php(26): CActiveRecord->find('name=:name', Array)
+#4 E:\xampp\htdocs\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#5 E:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#6 E:\xampp\htdocs\framework\web\CController.php(784): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#7 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(141): CController->render('PageShow', Array)
+#8 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionPageShow()
+#9 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#16 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('PageShow')
+#18 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/PageShow')
+#19 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#21 {main}
+REQUEST_URI=/yii-test/index.php/user/PageShow
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/video
+---
+2014/11/06 14:27:58 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'. The SQL statement executed was: SELECT * FROM `user` `t` WHERE name=:name LIMIT 1. Bound with :name='sd'.
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (155)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/06 14:27:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'where clause'. The SQL statement executed was: SELECT * FROM `user` `t` WHERE name=:name LIMIT 1. Bound with :name='sd'' in E:\xampp\htdocs\framework\db\CDbCommand.php:543
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryRow()
+#2 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1456): CActiveRecord->query(Object(CDbCriteria))
+#3 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(155): CActiveRecord->find('name=:name', Array)
+#4 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionUpfile()
+#5 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#7 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#8 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#9 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#10 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#11 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#12 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('upfile')
+#14 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/upfile')
+#15 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/yii-test/index.php/user/upfile
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/personal
+---
+2014/11/06 14:28:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 14:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 14:29:31 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `img` (`url`, `id`, `name`, `size`) VALUES (:yp0, :yp1, :yp2, :yp3). Bound with :yp0='images/upfile/10.jpg', :yp1=10, :yp2='sd', :yp3='494852'.
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (178)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/06 14:29:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '10' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `img` (`url`, `id`, `name`, `size`) VALUES (:yp0, :yp1, :yp2, :yp3). Bound with :yp0='images/upfile/10.jpg', :yp1=10, :yp2='sd', :yp3='494852'' in E:\xampp\htdocs\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(178): CActiveRecord->save()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionUpfile()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('upfile')
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/upfile')
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-test/index.php/user/upfile
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 14:32:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 14:32:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 14:32:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 14:32:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/06 14:33:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 02:35:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 03:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 03:13:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/07 03:14:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/07 03:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 03:21:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/07 03:33:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 04:15:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://192.168.1.114/yii-test/index.php/user/upfile
+---
+2014/11/07 04:16:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://192.168.1.114/yii-test/index.php/user/upfile
+---
+2014/11/07 04:22:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "yii-test".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('yii-test')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('yii-test')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/yii-test/i...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/yii-test/index.php/user/personal
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/11/07 07:28:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 07:40:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/11/07 07:51:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoList')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoList')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/videoList
+---
+2014/11/07 07:51:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('VideoList')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/VideoList')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/VideoList
+---
+2014/11/07 07:52:08 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('VideoList')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/VideoList')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/VideoList
+---
+2014/11/07 07:52:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('VideoList')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/VideoList')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/VideoList
+---
+2014/11/07 07:52:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('VideoList')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/VideoList')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/VideoList
+---
+2014/11/07 07:52:10 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('VideoList')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/VideoList')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/VideoList
+---
+2014/11/07 07:52:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('VideoList')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/VideoList')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/VideoList
+---
+2014/11/07 07:52:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('VideoList')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/VideoList')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/VideoList
+---
+2014/11/07 07:52:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('VideoList')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/VideoList')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/VideoList
+---
+2014/11/07 08:37:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 08:39:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 08:39:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 08:40:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 08:41:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 08:41:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/07 08:53:13 [error] [php] Undefined variable: user_model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:41)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (41)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:09:14 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:41)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (41)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:10:56 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:10:57 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:11:59 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:12:00 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:12:00 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:12:00 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:12:00 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:12:01 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:12:01 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 09:12:01 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:50)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(213): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (50)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (213)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 10:18:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('s1')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/s1')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/s1
+---
+2014/11/07 10:19:04 [error] [php] Illegal string offset 'name' (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:236)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/s2
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (236)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 10:19:42 [error] [php] Array to string conversion (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:236)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/s2
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (236)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 10:23:55 [error] [php] Illegal string offset 'rr' (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:236)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/s2
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (236)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 10:24:27 [error] [php] Illegal string offset 'rr' (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:236)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/s2
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (236)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 10:24:45 [error] [php] Object of class CHttpSession could not be converted to string (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:235)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/s2
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (235)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/07 11:34:51 [error] [php] Illegal string offset 'name' (E:\xampp\htdocs\yii-test\protected\controllers\UserController.php:237)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/s2
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (237)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 03:08:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/08 03:28:49 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `video` (`name`, `password`) VALUES (:yp0, :yp1). Bound with :yp0='xcvxcv', :yp1='123'.
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (215)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 03:28:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `video` (`name`, `password`) VALUES (:yp0, :yp1). Bound with :yp0='xcvxcv', :yp1='123'' in E:\xampp\htdocs\framework\db\CDbCommand.php:358
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1077): CDbCommand->execute()
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(806): CActiveRecord->insert(NULL)
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(215): CActiveRecord->save()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoList')
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoList')
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-test/index.php/user/videoList
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/videoList
+---
+2014/11/08 03:51:04 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.vedio' doesn't exist. The SQL statement executed was: select * from vedio Limit 0, 50.
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (228)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 03:51:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii.vedio' doesn't exist. The SQL statement executed was: select * from vedio Limit 0, 50' in E:\xampp\htdocs\framework\db\CDbCommand.php:543
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(1581): CDbCommand->queryAll()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(228): CActiveRecord->findAllBySql('select * from v...')
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoList')
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoList')
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/yii-test/index.php/user/videoList
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/videoList
+---
+2014/11/08 03:51:29 [error] [exception.CException] exception 'CException' with message 'Property "Video.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php(14): CActiveRecord->__get('user_name')
+#2 E:\xampp\htdocs\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#3 E:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#4 E:\xampp\htdocs\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#5 E:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('VideoList', Array, true)
+#6 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(235): CController->render('VideoList', Array)
+#7 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#8 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#10 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#12 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#13 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#14 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#15 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoList')
+#17 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoList')
+#18 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#20 {main}
+REQUEST_URI=/yii-test/index.php/user/videoList
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/videoList
+---
+2014/11/08 03:51:47 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:57)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(235): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (57)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (235)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 03:52:30 [error] [php] Array to string conversion (E:\xampp\htdocs\framework\web\helpers\CHtml.php:2181)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\helpers\CHtml.php(1432): resolveNameID()
+#1 E:\xampp\htdocs\framework\web\widgets\CActiveForm.php(725): activeTextField()
+#2 E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php(58): CActiveForm->textField()
+#3 E:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#4 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#5 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#6 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#7 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(235): UserController->render()
+#8 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#9 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#11 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#14 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#16 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#17 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#18 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (58)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (235)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 03:55:19 [error] [php] Array to string conversion (E:\xampp\htdocs\framework\web\helpers\CHtml.php:2181)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\helpers\CHtml.php(1432): resolveNameID()
+#1 E:\xampp\htdocs\framework\web\widgets\CActiveForm.php(725): activeTextField()
+#2 E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php(58): CActiveForm->textField()
+#3 E:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#4 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#5 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#6 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#7 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(235): UserController->render()
+#8 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#9 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#11 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#14 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#16 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#17 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#18 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (58)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (235)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:03:02 [error] [php] Array to string conversion (E:\xampp\htdocs\framework\web\helpers\CHtml.php:2181)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\helpers\CHtml.php(1432): resolveNameID()
+#1 E:\xampp\htdocs\framework\web\widgets\CActiveForm.php(725): activeTextField()
+#2 E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php(49): CActiveForm->textField()
+#3 E:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#4 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#5 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#6 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#7 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(234): UserController->render()
+#8 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#9 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#11 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#14 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#16 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#17 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#18 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (49)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (234)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:03:22 [error] [php] Array to string conversion (E:\xampp\htdocs\framework\web\helpers\CHtml.php:2181)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\helpers\CHtml.php(1432): resolveNameID()
+#1 E:\xampp\htdocs\framework\web\widgets\CActiveForm.php(725): activeTextField()
+#2 E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php(49): CActiveForm->textField()
+#3 E:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#4 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#5 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#6 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#7 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(234): UserController->render()
+#8 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#9 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#11 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#14 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#16 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#17 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#18 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (49)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (234)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:04:57 [error] [php] Array to string conversion (E:\xampp\htdocs\framework\web\helpers\CHtml.php:2181)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\helpers\CHtml.php(1432): resolveNameID()
+#1 E:\xampp\htdocs\framework\web\widgets\CActiveForm.php(725): activeTextField()
+#2 E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php(42): CActiveForm->textField()
+#3 E:\xampp\htdocs\framework\web\CBaseController.php(126): require()
+#4 E:\xampp\htdocs\framework\web\CBaseController.php(95): UserController->renderInternal()
+#5 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#6 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#7 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(234): UserController->render()
+#8 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#9 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#11 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#14 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#16 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#17 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#18 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (42)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (234)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:05:56 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:41)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(234): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (41)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (234)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:08:35 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:41)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (41)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:08:36 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:41)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (41)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:08:36 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:41)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (41)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:08:36 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:41)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (41)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:08:40 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:41)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (41)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:11:40 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:40)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (40)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:11:41 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:40)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (40)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:11:41 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:40)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (40)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:11:42 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:40)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (40)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:14:41 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:39)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(221): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (39)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (221)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:15:03 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:39)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(218): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (39)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (218)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:15:46 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:39)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(218): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (39)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (218)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:15:47 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:39)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(218): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (39)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (218)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:15:47 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:39)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(218): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (39)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (218)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:15:47 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:39)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(218): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (39)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (218)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:15:48 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:39)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(218): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (39)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (218)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:27:14 [error] [php] Undefined variable: model (E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php:39)
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(869): UserController->renderFile()
+#1 E:\xampp\htdocs\framework\web\CController.php(782): UserController->renderPartial()
+#2 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(218): UserController->render()
+#3 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#4 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#6 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#8 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#9 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#10 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#11 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#12 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#13 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList
+in E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php (39)
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (218)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 04:35:50 [error] [exception.CException] exception 'CException' with message 'Property "Video.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\models\Video.php(29): CActiveRecord->__get('user_name')
+#2 E:\xampp\htdocs\framework\base\CModel.php(284): Video->rules()
+#3 E:\xampp\htdocs\framework\base\CModel.php(260): CModel->createValidators()
+#4 E:\xampp\htdocs\framework\base\CModel.php(547): CModel->getValidators()
+#5 E:\xampp\htdocs\framework\base\CModel.php(468): CModel->getSafeAttributeNames()
+#6 E:\xampp\htdocs\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#7 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(161): CComponent->__set('attributes', Array)
+#8 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(215): CActiveRecord->__set('attributes', Array)
+#9 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#10 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#17 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoList')
+#19 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoList')
+#20 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yii-test/index.php/user/videoList
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/videoList
+---
+2014/11/08 07:33:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "video".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('video')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('video')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/video')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/video
+---
+2014/11/08 07:33:13 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoRoom')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoRoom')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/videoRoom
+---
+2014/11/08 07:34:20 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 E:\xampp\htdocs\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#6 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('show')
+#8 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/show')
+#9 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii-test/index.php/user/show
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/PageShow
+---
+2014/11/08 07:34:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/08 07:34:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/08 07:52:24 [error] [php] include(Video.php): failed to open stream: No such file or directory (E:\xampp\htdocs\framework\YiiBase.php:427)
+Stack trace:
+#0 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(212): spl_autoload_call()
+#1 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#2 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): UserController->runAction()
+#4 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 E:\xampp\htdocs\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): UserController->filterAccessControl()
+#7 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#9 E:\xampp\htdocs\framework\web\CController.php(265): UserController->runActionWithFilters()
+#10 E:\xampp\htdocs\framework\web\CWebApplication.php(282): UserController->run()
+#11 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 E:\xampp\htdocs\yii-test\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-test/index.php/user/videoList?&page=1
+in E:\xampp\htdocs\yii-test\protected\controllers\UserController.php (212)
+in E:\xampp\htdocs\yii-test\index.php (13)
+2014/11/08 07:58:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/08 08:42:57 [error] [exception.CException] exception 'CException' with message 'Property "Video.user_name" is not defined.' in E:\xampp\htdocs\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\xampp\htdocs\framework\db\ar\CActiveRecord.php(145): CComponent->__get('user_name')
+#1 E:\xampp\htdocs\yii-test\protected\models\Video.php(32): CActiveRecord->__get('user_name')
+#2 E:\xampp\htdocs\framework\base\CModel.php(284): Video->rules()
+#3 E:\xampp\htdocs\framework\base\CModel.php(260): CModel->createValidators()
+#4 E:\xampp\htdocs\framework\web\helpers\CHtml.php(2236): CModel->getValidators('name')
+#5 E:\xampp\htdocs\framework\web\helpers\CHtml.php(1434): CHtml::activeInputField('text', Object(Video), 'name', Array)
+#6 E:\xampp\htdocs\framework\web\widgets\CActiveForm.php(725): CHtml::activeTextField(Object(Video), 'name', Array)
+#7 E:\xampp\htdocs\yii-test\protected\views\user\VideoList.php(52): CActiveForm->textField(Object(Video), 'name', Array)
+#8 E:\xampp\htdocs\framework\web\CBaseController.php(126): require('E:\xampp\htdocs...')
+#9 E:\xampp\htdocs\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\xampp\htdocs...', Array, true)
+#10 E:\xampp\htdocs\framework\web\CController.php(869): CBaseController->renderFile('E:\xampp\htdocs...', Array, true)
+#11 E:\xampp\htdocs\framework\web\CController.php(782): CController->renderPartial('VideoList', Array, true)
+#12 E:\xampp\htdocs\yii-test\protected\controllers\UserController.php(232): CController->render('VideoList', Array)
+#13 E:\xampp\htdocs\framework\web\actions\CInlineAction.php(49): UserController->actionVideoList()
+#14 E:\xampp\htdocs\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#16 E:\xampp\htdocs\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#17 E:\xampp\htdocs\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#18 E:\xampp\htdocs\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#19 E:\xampp\htdocs\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#20 E:\xampp\htdocs\framework\web\CController.php(291): CFilterChain->run()
+#21 E:\xampp\htdocs\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#22 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoList')
+#23 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoList')
+#24 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#25 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#26 {main}
+REQUEST_URI=/yii-test/index.php/user/videoList?&page=1
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/videoList?&page=2
+---
+2014/11/08 08:47:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('view')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('view')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/view')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/1
+---
+2014/11/08 09:15:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/08 09:16:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "videoromm".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('videoromm')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoromm')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoromm')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/videoromm
+---
+2014/11/08 09:17:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/08 09:29:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoRoom".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('videoRoom')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/videoRoom
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/videoList
+---
+2014/11/08 09:29:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "videoRoom/view".' in E:\xampp\htdocs\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('videoRoom/view')
+#1 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-test/index.php/videoRoom/2
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/videoList
+---
+2014/11/08 09:30:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/08 10:12:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "videoRoom、2".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('videoRoom???2')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoRoom???2')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoRoom?...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/videoRoom%E3%80%812
+---
+2014/11/08 10:12:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "videoRoom1".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('videoRoom1')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('videoRoom1')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/videoRoom1')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/videoRoom1
+---
+2014/11/09 02:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('id')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('id')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/id')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/id
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/videoRoom?id=28
+---
+2014/11/09 03:43:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/09 03:55:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/09 04:01:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/09 04:10:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/09 04:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/09 04:11:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/09 04:11:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/09 04:11:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---

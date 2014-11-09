@@ -6,6 +6,7 @@ class User extends CActiveRecord
     public $password;
     public $password2;
     public $email;
+    public $id;
 //    public $verifyCode;
     private $_identity;
 
