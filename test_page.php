@@ -1,3 +1,13 @@
+<div
+    style="background-image:url('1.jpg');min-height: 550px;border: 1px solid #d3d3d3;border-radius: 8px;margin-top:60px;margin-bottom: 10px;margin-left: 80px">
+    <!--    <img src="">-->
+    <div class="row">
+        <div id="remotesVideos"></div>
+    </div>
+
+</div>
+
+
 <?php
 /**
  * 分页类演示使用

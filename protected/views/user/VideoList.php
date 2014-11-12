@@ -1,41 +1,61 @@
+<style>
+    .s_block {
+        width: 160px;
+        /*height: 240px;*/
+        /*border: 1px solid wheat;*/
+        border-radius: 15px;
+        float: left;
+        margin: 15px;
+        margin-bottom: 30px;
+        padding: 10px;
+        /*background-color: blue;*/
+    }
+</style>
+<script>
+    $(function () {
+        $(".s_block").mouseenter(function () {
+//            alert("sdf");
+            $(this).css("background-color",
+                "#DFE3FE");
+        });
+        $(".s_block").mouseleave(function () {
+            $(this).css("background-color",
+                "white");
+        });
+    })
+</script>
+
 <div class="col-lg-9 col-lg-offset-1 col-xs-9 col-xs-offset-1 "
      style="min-height: 550px;border: 1px solid #d3d3d3;border-radius: 8px;margin-top:60px;margin-bottom: 10px;">
-    <h1>房间列表</h1>
-    <table class="table table-hover">
-        <tr>
-            <td>房主靓照</td>
-            <td>房主</td>
-            <td>房间名</td>
-            <td>密码</td>
-            <td>房间id</td>
-            <td>操作</td>
-        </tr>
-        <?php
-        foreach ($videoList as $_v) {
-            ?>
-            <tr>
+    <!--    <h2>房间列表  点击头像与房主聊天</h2>-->
+    <?php
+    foreach ($videoList as $_v) {
+        ?>
+        <div class="s_block">
+            <a target="_blank" href="/yii-test/index.php/user/videoRoom?id=<?php echo $_v->id; ?>"> <img width="100%"
+                                                                                                         height="160px"
+                                                                                                         style="border: 1px solid #ffffff;border-radius: 25px;"
+                                                                                                         src="/yii-test/<?php $name = $_v->creator;
+                                                                                                         $img = new Img();
+                                                                                                         $var = $img->find('name=:name', array(':name' => $name));
+                                                                                                         if ($var == null)
+                                                                                                             echo 'images/nopic.jpg';
+                                                                                                         else
+                                                                                                             echo $var->url;
+                                                                                                         ?>
+                "></a>
+            <?php echo $_v->creator; ?>
+            <?php echo $_v->name; ?>
+            <?php echo $_v->password; ?>
+            <?php echo $_v->id; ?>
+            <a target="_blank" href="/yii-test/index.php/user/videoRoom?id=<?php echo $_v->id; ?>">进入</a>
+        </div>
+    <?php } ?>
 
-                <td><img width="45px" height="35px"
-                         style="border: 1px solid #ffffff;border-radius: 5px;margin-left: 20%"
-                         src="/yii-test/<?php $name = $_v->creator;
-                         $img = new Img();
-                         $var = $img->find('name=:name', array(':name' => $name));
-                         if ($var == null)
-                             echo 'images/nopic.jpg';
-                         else
-                             echo $var->url;
-                         ?>
-                "></td>
-                <td><?php echo $_v->creator; ?></td>
-                <td><?php echo $_v->name; ?></td>
-                <td><?php echo $_v->password; ?></td>
-                <td><?php echo $_v->id; ?></td>
-                <td><a target="_blank" href="/yii-test/index.php/user/videoRoom?id=<?php echo $_v->id; ?>">进入</a></td>
-            </tr>
-        <?php } ?>
-    </table>
     <h5>
-        <ul class="pagination "><?php echo $page_list; ?></ul>
+        <div style="width: 100%;float: left">
+            <ul class="pagination "><?php echo $page_list; ?></ul>
+        </div>
     </h5>
 </div>
 
@@ -44,10 +64,10 @@
     <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal2">
         创建房间
     </button>
-
+    <div>房间列表 点击头像与房主聊天</div>
 </div>
-
 <!--侧边导航栏结束-->
+
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">

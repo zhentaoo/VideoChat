@@ -1,29 +1,21 @@
 <style>
-    video {
-        margin: 10px;
-        height: 170px;
+    #localVideo {
         border-radius: 7px;
+        width: 220px;
     }
 
     #remotesVideos video {
-        margin: 10px;
+        margin: 21px;
         height: 220px;
     }
 </style>
 
 
-<div class="col-lg-9 col-lg-offset-1 col-xs-9 col-xs-offset-1 "
-     style="min-height: 550px;border: 1px solid #d3d3d3;border-radius: 8px;margin-top:60px;margin-bottom: 10px;">
+<div class="col-lg-9 col-xs-9 "
+     style="background-image:url('<?php echo Yii::app()->baseUrl ?>/images/videoRoom.jpg');min-height: 550px;border: 1px solid #d3d3d3;border-radius: 8px;margin-top:60px;margin-bottom: 10px;margin-left: 80px">
+    <!--    <img src="">-->
     <div class="row">
-        <div class="col-xs-3">
-            <div>
-                <video id="localVideo">
-                </video>
-            </div>
-        </div>
-        <div class="col-xs-8 col-xs-offset-1">
-            <div id="remotesVideos"></div>
-        </div>
+        <div id="remotesVideos"></div>
     </div>
 
 </div>
@@ -31,6 +23,14 @@
 
 <!--侧边导航栏-->
 <div class="col-lg-2 col-xs-2" style="margin-top: 60px;">
+    <!--    <div class="col-xs-3">-->
+    <video id="localVideo">
+    </video>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--    </div>-->
     <button type="button" id="hehe" class="btn btn-default" data-toggle="tooltip" data-placement="right"
             title="这是bootstrap tooltip插件，使用时需要使用js初始化一下"><font font-size="1">视&nbsp;&nbsp;&nbsp;频</font>
     </button>

@@ -19,7 +19,7 @@
         <div class="col-lg-10  col-xs-7 " style="padding-left: 4%">
             <!--下拉按钮-->
             <div class="btn-group">
-                <button type="button" class="btn btn-default" id="personal"><?php echo Yii::app()->user->name ?>的主页
+                <button type="button" class="btn btn-default" id="personal"><font color="green"><?php echo Yii::app()->user->name ?></font>的主页
                 </button>
                 <button type="button"
                         class="btn btn-default" id="video">
@@ -27,7 +27,7 @@
                 </button>
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        Dropdown
+                        网站声明与简介
                         <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" role="menu">

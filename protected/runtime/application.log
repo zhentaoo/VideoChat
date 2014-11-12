@@ -20600,3 +20600,409 @@ Stack trace:
 REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
 HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
 ---
+2014/11/10 03:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in E:\xampp\htdocs\framework\web\CController.php:483
+Stack trace:
+#0 E:\xampp\htdocs\framework\web\CController.php(270): CController->missingAction('login')
+#1 E:\xampp\htdocs\framework\web\CWebApplication.php(282): CController->run('login')
+#2 E:\xampp\htdocs\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#3 E:\xampp\htdocs\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\xampp\htdocs\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/login
+---
+2014/11/10 03:47:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 08:09:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 08:10:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 08:10:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 08:11:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 08:11:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 08:11:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 08:13:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 08:14:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 08:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:39:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:39:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:40:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:41:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:42:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:42:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:43:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:43:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:55:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:56:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 09:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 10:12:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 11:29:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 12:05:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 12:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 12:14:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 12:42:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/10 12:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/11 03:21:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/11 03:33:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/11 03:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/11 12:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/11 12:05:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---
+2014/11/11 12:32:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "js".' in E:\wamp\www\framework\web\CController.php:483
+Stack trace:
+#0 E:\wamp\www\framework\web\CController.php(270): CController->missingAction('js')
+#1 E:\wamp\www\framework\web\CWebApplication.php(282): CController->run('js')
+#2 E:\wamp\www\framework\web\CWebApplication.php(141): CWebApplication->runController('user/js/jquery-...')
+#3 E:\wamp\www\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\wamp\www\yii-test\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii-test/index.php/user/js/jquery-1.11.1.js
+HTTP_REFERER=http://127.0.0.1/yii-test/index.php/user/upfile
+---

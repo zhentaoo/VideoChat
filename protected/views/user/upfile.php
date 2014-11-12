@@ -4,6 +4,8 @@
     }
 
     #destination img {
+        height: 240px;
+        width: 220px;
         border-radius: 7px;
     }
 </style>
@@ -140,8 +142,6 @@
 <!--图片预览结束-->
 
 
-
-
 <div class="col-lg-9 col-lg-offset-1 col-xs-9 col-xs-offset-1 "
      style="min-height: 550px;border: 1px solid #d3d3d3;border-radius: 8px;margin-top:60px;margin-bottom: 10px;">
     <div class="col-lg-12">
@@ -152,19 +152,31 @@
         )); ?>
     </div>
 
-    <div class="col-lg-12">
-        <?php echo CHtml::activeFileField($model, 'url', array('id' => 'imgUpload', 'required' => 'required')); ?>
-        <?php echo $form->error($model, 'url'); ?>
-    </div>
+    <div class="col-lg-12"><br/>
 
-    <div class="col-lg-12">
-        <div id="destination" style="width:200px;height:200px;"><img
-                src='<?php echo Yii::app()->baseUrl ?>/images/nopic.jpg'/>
+        <div id="destination" style="width:200px;height:200px;"><img style="height: 240px;width: 220px;"
+                                                                     src='/yii-test/<?php $name = Yii::app()->user->name;
+                                                                     $img = new Img();
+                                                                     $var = $img->find('name=:name', array(':name' => $name));
+                                                                     if ($var == null)
+                                                                         echo 'images/nopic.jpg';
+                                                                     else
+                                                                         echo $var->url;
+                                                                     ?>
+              '>
         </div>
     </div>
 
     <div class="col-lg-12">
-        <?php echo CHtml::submitButton(); ?>
+        <br/>
+        <?php echo CHtml::activeFileField($model, 'url', array('id' => 'imgUpload', 'required' => 'required')); ?>
+        <?php echo $form->error($model, 'url'); ?>
+    </div>
+
+
+    <div class="col-lg-12">
+        <br>
+        <?php echo CHtml::submitButton('提交头像'); ?>
     </div>
 
     <?php $this->endWidget(); ?>
