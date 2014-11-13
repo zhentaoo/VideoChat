@@ -1,3 +1,5 @@
+<script src="<?php echo Yii::app()->request->baseUrl ?>/bootstrap/js/bootstrap.js"></script>
+
 <div class="col-lg-9 col-lg-offset-1 col-xs-9 col-xs-offset-1 "
      style="min-height: 550px;border: 1px solid #d3d3d3;border-radius: 8px;margin-top:60px;margin-bottom: 10px;">
     <h2>user表信息</h2>

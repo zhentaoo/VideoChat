@@ -5,7 +5,6 @@
     <link rel="stylesheet" type="text/css"
           href="<?php echo Yii::app()->request->baseUrl; ?>/bootstrap/css/bootstrap.min.css">
     <script src="<?php echo Yii::app()->request->baseUrl ?>/bootstrap/js/jquery-1.11.1.js"></script>
-    <script src="<?php echo Yii::app()->request->baseUrl ?>/bootstrap/js/bootstrap.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl ?>/js/login.js"></script>
     <script src="<?php echo Yii::app()->request->baseUrl ?>/js/latest.js"></script>
 </head>
@@ -19,7 +18,8 @@
         <div class="col-lg-10  col-xs-7 " style="padding-left: 4%">
             <!--下拉按钮-->
             <div class="btn-group">
-                <button type="button" class="btn btn-default" id="personal"><font color="green"><?php echo Yii::app()->user->name ?></font>的主页
+                <button type="button" class="btn btn-default" id="personal"><font
+                        color="green"><?php echo Yii::app()->user->name ?></font>的主页
                 </button>
                 <button type="button"
                         class="btn btn-default" id="video">
@@ -41,7 +41,8 @@
         <div class="col-lg-2 col-xs-5">
             <!-- Button trigger modal -->
             <img width="45px" height="35px" style="border-radius: 5px;margin-left: 20%"
-                 src="/yii-test/<?php $name = Yii::app()->user->name;
+                 src="/<?php echo Yii::app()->name.'/';
+                 $name = Yii::app()->user->name;
                  $img = new Img();
                  $var = $img->find('name=:name', array(':name' => $name));
                  if ($var == null)
@@ -52,7 +53,7 @@
                 ">
 
             <button id="logout" class="btn btn-primary"
-                    onclick="javascript:window.location.href='/yii-test/index.php/default/logout'"
+                    onclick="javascript:window.location.href='/VideoChat/index.php/default/logout'"
                     style="margin-left:10%;width: 48px">
                 退出
             </button>

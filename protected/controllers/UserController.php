@@ -3,12 +3,14 @@
 /**
  *
  */
-class UserController extends Controller {
+class UserController extends Controller
+{
 
     public $layout = 'user_layout';
     public $uploadedFile;
 
-    function actions() {
+    function actions()
+    {
         return array(
             'captcha' => array('class' => 'system.web.widgets.captcha.CCaptchaAction', 'width' => '80', 'height' => '35'),
             'computer' => array('class' => 'application.controllers.Computer'),
@@ -19,11 +21,13 @@ class UserController extends Controller {
          */
     }
 
-    function filters() {
+    function filters()
+    {
         return array('accessControl');
     }
 
-    function accessRules() {
+    function accessRules()
+    {
         return array(
             array(
                 'allow', //允许访问
@@ -52,20 +56,15 @@ class UserController extends Controller {
         );
     }
 
-    public function actionIndex() {
+    public function actionIndex()
+    {
+        $img = new img();
         $this->render("index", array('img' => '$img'));
     }
 
-    public function actionWelcom() {
-//        if (Yii::app()->user->getIsGuest()) {
-//            $guest = '游客';
-//            $this->render('index', array('guest' => $guest));
-//        } else
-        $img = new img();
-        $this->render('welcom', array('img' => $img));
-    }
 
-    public function actionShow() {/*
+    public function actionShow()
+    {/*
      * 实例化数据模型对象user
      */
         $user_model = new User();
@@ -96,7 +95,8 @@ class UserController extends Controller {
         $this->render('show', array('user_infos' => $user_infos));
     }
 
-    public function actionPageShow() {
+    public function actionPageShow()
+    {
         /*
          * 分页类组件使用
          * 获取数据模型
@@ -122,11 +122,13 @@ class UserController extends Controller {
         $this->render('PageShow', array('user_infos' => $user_infos, 'page_list' => $page_list));
     }
 
-    public function actionPersonal() {
+    public function actionPersonal()
+    {
         $this->render('personal');
     }
 
-    public function actionUpfile() {
+    public function actionUpfile()
+    {
         /*
          * 图片上传,若存在，删除旧图，上传新图
          */
@@ -170,7 +172,8 @@ class UserController extends Controller {
         $this->render('upfile', array('model' => $model));
     }
 
-    public function actionRegister() {
+    public function actionRegister()
+    {
         $user_model = new User();
         if (isset($_POST['User'])) {
             $user_model->attributes = $_POST['User'];
@@ -182,17 +185,19 @@ class UserController extends Controller {
         $this->render('register', array('user_model' => $user_model));
     }
 
-    function actionVideoRoom() {
+    function actionVideoRoom()
+    {
         $this->render('VideoRoom');
     }
 
-    function actionVideoList() {
+    function actionVideoList()
+    {
         $model = new Video();
 
         if (isset($_POST['Video'])) {
             $model->attributes = $_POST['Video'];
             $model->save();
-            $this->redirect('VideoRoom?id=22');
+//            $this->redirect('VideoRoom?id=22');
         }
 
         $cnt = $model->count();
@@ -211,17 +216,20 @@ class UserController extends Controller {
         $this->render('VideoList', array('model' => $model, 'videoList' => $videoList, 'page_list' => $page_list));
     }
 
-    function actionError() {
+    function actionError()
+    {
         $this->render('error');
     }
 
-    function actionS1() {
+    function actionS1()
+    {
         $arr = array('name' => 'zs', 'psw' => '123');
         Yii::app()->session['user_name'] = $arr;
         echo 'make session success';
     }
 
-    function actionS2() {
+    function actionS2()
+    {
 //        var_dump(Yii::app()->session);
         foreach (Yii::app()->session as $key => $val) {
             echo '<br>' . Yii::app()->session['user_name']['name'] . '<br>';
@@ -230,7 +238,8 @@ class UserController extends Controller {
         echo 'use session success';
     }
 
-    function actionS3() {
+    function actionS3()
+    {
         /*
          * 删除一个session
          */
@@ -244,7 +253,8 @@ class UserController extends Controller {
         $this->render('index');
     }
 
-    function actionC1() {
+    function actionC1()
+    {
         /*
          * 设置cookie
          */
@@ -263,7 +273,8 @@ class UserController extends Controller {
         echo "cookie make success";
     }
 
-    function actionC2() {
+    function actionC2()
+    {
         /*
          * 访问cookie
          */
@@ -271,14 +282,16 @@ class UserController extends Controller {
         echo Yii::app()->request->cookies['hobby'];
     }
 
-    function actionC3() {
+    function actionC3()
+    {
         /*
          * 删除cookie
          */
         unset(Yii::app()->request->cookies['sex']);
     }
 
-    function actionLu() {
+    function actionLu()
+    {
         //输出路径别名信息
         /*
          * framwork\web
@@ -286,7 +299,8 @@ class UserController extends Controller {
         echo Yii::getPathOfAlias('system . web');
     }
 
-    function actionApp() {
+    function actionApp()
+    {
         /*
          * 在config/main.php中定义
          */

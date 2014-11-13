@@ -1,3 +1,5 @@
+<script src="<?php echo Yii::app()->request->baseUrl ?>/bootstrap/js/bootstrap.js"></script>
+
 <style type="text/css">
     #destination {
         filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(true, sizingMethod=scale);
@@ -155,7 +157,7 @@
     <div class="col-lg-12"><br/>
 
         <div id="destination" style="width:200px;height:200px;"><img style="height: 240px;width: 220px;"
-                                                                     src='/yii-test/<?php $name = Yii::app()->user->name;
+                                                                     src='/VideoChat/<?php $name = Yii::app()->user->name;
                                                                      $img = new Img();
                                                                      $var = $img->find('name=:name', array(':name' => $name));
                                                                      if ($var == null)

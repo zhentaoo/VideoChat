@@ -1,29 +1,17 @@
+<script src="<?php echo Yii::app()->request->baseUrl ?>/bootstrap/js/bootstrap.js"></script>
+
+<script src="<?php echo Yii::app()->request->baseUrl ?>/js/login.js"></script>
+
 <style>
     .s_block {
         width: 160px;
-        /*height: 240px;*/
-        /*border: 1px solid wheat;*/
         border-radius: 15px;
         float: left;
         margin: 15px;
         margin-bottom: 30px;
         padding: 10px;
-        /*background-color: blue;*/
     }
 </style>
-<script>
-    $(function () {
-        $(".s_block").mouseenter(function () {
-//            alert("sdf");
-            $(this).css("background-color",
-                "#DFE3FE");
-        });
-        $(".s_block").mouseleave(function () {
-            $(this).css("background-color",
-                "white");
-        });
-    })
-</script>
 
 <div class="col-lg-9 col-lg-offset-1 col-xs-9 col-xs-offset-1 "
      style="min-height: 550px;border: 1px solid #d3d3d3;border-radius: 8px;margin-top:60px;margin-bottom: 10px;">
@@ -32,23 +20,23 @@
     foreach ($videoList as $_v) {
         ?>
         <div class="s_block">
-            <a target="_blank" href="/yii-test/index.php/user/videoRoom?id=<?php echo $_v->id; ?>"> <img width="100%"
-                                                                                                         height="160px"
-                                                                                                         style="border: 1px solid #ffffff;border-radius: 25px;"
-                                                                                                         src="/yii-test/<?php $name = $_v->creator;
-                                                                                                         $img = new Img();
-                                                                                                         $var = $img->find('name=:name', array(':name' => $name));
-                                                                                                         if ($var == null)
-                                                                                                             echo 'images/nopic.jpg';
-                                                                                                         else
-                                                                                                             echo $var->url;
-                                                                                                         ?>
+            <a href="/VideoChat/index.php/user/videoRoom?id=<?php echo $_v->id; ?>"> <img width="100%"
+                                                                                          height="160px"
+                                                                                          style="border: 1px solid #ffffff;border-radius: 25px;"
+                                                                                          src="/VideoChat/<?php $name = $_v->creator;
+                                                                                          $img = new Img();
+                                                                                          $var = $img->find('name=:name', array(':name' => $name));
+                                                                                          if ($var == null)
+                                                                                              echo 'images/nopic.jpg';
+                                                                                          else
+                                                                                              echo $var->url;
+                                                                                          ?>
                 "></a>
             <?php echo $_v->creator; ?>
             <?php echo $_v->name; ?>
             <?php echo $_v->password; ?>
             <?php echo $_v->id; ?>
-            <a target="_blank" href="/yii-test/index.php/user/videoRoom?id=<?php echo $_v->id; ?>">进入</a>
+            <a href="/VideoChat/index.php/user/videoRoom?id=<?php echo $_v->id; ?>">进入</a>
         </div>
     <?php } ?>
 
@@ -61,10 +49,36 @@
 
 <!--侧边导航栏-->
 <div class="col-lg-2 col-xs-2" style="margin-top: 60px;">
-    <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal2">
+    <button id="VideoList_newRoom" type="button" class="btn btn-primary btn-md" data-toggle="modal"
+            data-target="#myModal2"
+            data-toggle="tooltip" data-placement="right"
+            title="创建一个房间，后续可能会限制一个人只能创建一个房间.....">
         创建房间
     </button>
-    <div>房间列表 点击头像与房主聊天</div>
+
+
+    <br><br>
+
+    <button id="VideoList_leave" type="button" class="btn btn-primary btn-md"
+            data-toggle="tooltip" data-placement="right"
+            title="这个没什么用">
+        离开
+    </button>
+    <br><br>
+
+    <button id="VideoList_proposal" type="button" class="btn btn-primary btn-md"
+            data-toggle="tooltip" data-placement="right"
+            title="这个还在建设中">
+        有什么建议？
+    </button>
+    <br><br>
+    <br>
+    <br>
+    <br>
+
+    <div style="color: #3851e2;font-size: large;width: 70%">
+        <marquee scrollamount="2" direction=up>房间列表 点击头像与房主聊天</marquee>
+    </div>
 </div>
 <!--侧边导航栏结束-->
 

@@ -32,16 +32,14 @@ class DefaultController extends Controller
             $login_model->attributes = $_POST['LoginForm'];
             /**validate只校验不保存，和save()的区别**/
             if ($login_model->validate() && $login_model->login())
-                $this->redirect('/yii-test/index.php/user/welcom');
+                $this->redirect('/VideoChat/index.php/user/');
             else {
                 $psw_error = true;
             }
         }
-
         if (isset($_POST['User'])) {
             $user_model->attributes = $_POST['User'];
             $rgs_error = true;
-
             if ($user_model->save()) {
                 Yii::app()->user->setFlash('success', '<font color="green">恭喜注册成功!!!!!!!</font>');
             }
@@ -63,7 +61,7 @@ class DefaultController extends Controller
     {
         Yii::app()->session->clear();
         Yii::app()->session->destroy();
-        $this->redirect("/yii-test");
+        $this->redirect("/VideoCHat");
     }
 
 

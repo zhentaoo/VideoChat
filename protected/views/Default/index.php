@@ -22,6 +22,12 @@
         )
     })
 </script>
+<style>
+    img {
+        width: 100%;
+        height: 600px;
+    }
+</style>
 
 
 <!-- Modal 登录 -->

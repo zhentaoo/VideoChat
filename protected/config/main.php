@@ -10,10 +10,10 @@ return array(
      * 设置的信息(basePath,name,defaultController,layout)是对CWebApplication和CApplication属性的重写
      */
     'basePath' => dirname(__FILE__) . DIRECTORY_SEPARATOR . '..',
-    'name' => 'yii-test',
+    'name' => 'VideoChat',
     'defaultController' => 'default',
     'layout' => 'user',
-    'theme' => 'children',
+//    'theme' => 'children',
     // preloading 'log' component
     'preload' => array('log'),
 
@@ -25,12 +25,12 @@ return array(
 
     'modules' => array(
         // uncomment the following to enable the Gii tool
-        'gii' => array(
-            'class' => 'system.gii.GiiModule',
-            'password' => '123456',
-            // If removed, Gii defaults to localhost only. Edit carefully to taste.
-            'ipFilters' => array('127.0.0.1', '::1'),
-        ),
+//        'gii' => array(
+//            'class' => 'system.gii.GiiModule',
+//            'password' => '123456',
+//            // If removed, Gii defaults to localhost only. Edit carefully to taste.
+//            'ipFilters' => array('127.0.0.1', '::1'),
+//        ),
         'admin',
     ),
 
@@ -55,7 +55,7 @@ return array(
 //		),
         // uncomment the following to use a MySQL database
         'db' => array(
-            'connectionString' => 'mysql:host=localhost;dbname=yii',
+            'connectionString' => 'mysql:host=127.0.0.1;dbname=yii',
             'emulatePrepare' => true,
             'username' => 'root',
             'password' => '',
