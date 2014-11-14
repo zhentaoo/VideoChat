@@ -143,15 +143,15 @@ class UserController extends Controller
                 $model->id = $user_id;
                 $model->name = Yii::app()->user->name;
                 $model->size = $file->size;
-            } else {
-                $model->url = 'images/nopic.jpg';
             }
 
             /*
-             * 如果图片存在,(包括数据库中的url记录，和images文件下的图片)删除该记录
+             * 如果图片存在
              */
             if (is_file($model->url)) {
+                //删除文件
                 unlink($model->url);
+                //删除数据库记录
                 Img::model()->deleteAll('name=:name', array(':name' => Yii::app()->user->name));
             }
 

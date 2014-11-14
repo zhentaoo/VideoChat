@@ -16,10 +16,13 @@
     <?php $user = new User();
     $email = $user->find('user_name=:user_name', array(':user_name' => Yii::app()->user->name))->id;
     $img = new Img();
-    $url = $img->find('name=:name', array(':name' => Yii::app()->user->name))->url;
-//    echo $url;
+    @$url = $img->find('name=:name', array(':name' => Yii::app()->user->name))->url;
+    //    echo $url;
     ?>
-    <img src="<?php echo Yii::app()->request->baseUrl .'/'. $url; ?>" width="300px" height="280px" style="border-radius: 10px">
+    <img src="<?php if ($url != null) {
+        echo Yii::app()->request->baseUrl . '/' . $url;
+    } else echo Yii::app()->request->baseUrl . '/images/nopic.jpg'?>" width="300px" height="280px"
+         style="border-radius: 10px">
 
 </div>
 <!--正文结束-->

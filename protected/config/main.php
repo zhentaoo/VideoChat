@@ -55,7 +55,7 @@ return array(
 //		),
         // uncomment the following to use a MySQL database
         'db' => array(
-            'connectionString' => 'mysql:host=127.0.0.1;dbname=yii',
+            'connectionString' => 'mysql:host=localhost;dbname=yii',
             'emulatePrepare' => true,
             'username' => 'root',
             'password' => '',
@@ -63,7 +63,7 @@ return array(
 
             'enableParamLogging' => YII_DEBUG,
             //显示每个SQL语句与运行时间
-            'enableProfiling' => true,
+//            'enableProfiling' => true,
             //数据表的前缀设置
         ),
         'errorHandler' => array(
