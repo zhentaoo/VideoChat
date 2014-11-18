@@ -1,7 +1,7 @@
 <script src="<?php echo Yii::app()->request->baseUrl ?>/bootstrap/js/bootstrap.js"></script>
 
 
-<div class="col-lg-9 col-lg-offset-1 col-xs-9 col-xs-offset-1 "
+<div class="col-lg-9 col-lg-offset-1"
      style="min-height: 550px;border: 1px solid #d3d3d3;border-radius: 8px;margin-top:60px;margin-bottom: 10px;">
     <h1>个人信息</h1>
     我的名字:<?php echo Yii::app()->user->name ?><br><br>
@@ -12,7 +12,8 @@
     <br><br>
     我的当前头像
     <a href="./upfile">修改头像</a>
-    <br> <br>
+    <br>    <br>
+
     <?php $user = new User();
     $email = $user->find('user_name=:user_name', array(':user_name' => Yii::app()->user->name))->id;
     $img = new Img();
@@ -29,17 +30,17 @@
 
 <!--侧边导航栏-->
 <div class="col-lg-2 col-xs-2" style="margin-top: 60px;">
-    <button type="button" id="hehe" class="btn btn-success btn-lg" data-toggle="tooltip" data-placement="right"
-            title="还没想好要干嘛"><font font-size="1">私&nbsp;人&nbsp;的&nbsp;</font>
+    <button type="button" id="hehe" class="btn btn-success btn-md" data-toggle="tooltip" data-placement="right"
+            title="还没想好要干嘛"><font font-size="1">这&nbsp;是&nbsp;你&nbsp;的</font>
     </button>
     <br><br>
-    <button type="button" id="hehe2" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="right"
-            title="不用再碰了"><font font-size="1">私&nbsp;人&nbsp;的&nbsp;</font>
+    <button type="button" id="hehe2" class="btn btn-primary btn-md" data-toggle="tooltip" data-placement="right"
+            title="不用再碰了"><font font-size="1">个&nbsp;人</font>
     </button>
     <br><br>
 
-    <button type="button" id="hehe3" class="btn btn-primary btn-md" data-toggle="tooltip" data-placement="right"
-            title="真的没想好"><font font-size="1">私&nbsp;人&nbsp;的&nbsp;</font>
+    <button type="button" id="hehe3" class="btn btn-info btn-md" data-toggle="tooltip" data-placement="right"
+            title="真的没想好"><font font-size="1">小&nbsp;空&nbsp;间&nbsp;</font>
     </button>
 </div>
 <!--侧边导航栏结束-->

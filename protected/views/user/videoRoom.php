@@ -9,6 +9,7 @@
     #remotesVideos video {
         margin: 21px;
         height: 220px;
+        border-radius: 8px;
     }
 </style>
 

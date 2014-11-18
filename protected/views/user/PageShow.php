@@ -6,14 +6,14 @@
     <table class="table table-hover ">
         <tr>
             <td>用户名</td>
-            <td>密码</td>
+            <td>邮箱</td>
         </tr>
         <?php
         foreach ($user_infos as $_v) {
             ?>
             <tr>
                 <td><?php echo $_v->user_name; ?></td>
-                <td><?php echo $_v->password; ?></td>
+                <td><?php echo $_v->email; ?></td>
             </tr>
         <?php } ?>
     </table>
@@ -25,8 +25,20 @@
 
 <!--侧边导航栏-->
 <div class="col-lg-2 col-xs-2" style="margin-top: 60px;">
-    <button type="button" id="hehe" class="btn btn-default" data-toggle="tooltip" data-placement="right"
-            title="这是bootstrap tooltip插件，使用时需要使用js初始化一下"><font font-size="1">分&nbsp;页&nbsp;显&nbsp;示</font>
+    <img src="/VideoChat/images/wechat.jpg" style="border-radius: 8px;height:170px;width: 170px">
+    <br><br>
+    <button type="button" class="btn btn-success" data-toggle="tooltip" data-placement="right"
+            id="wechat" title="加我微信哦！！！">扫一扫
     </button>
+    <br>
+    <div style="color: #3851e2;font-size: large;width: 90%">
+        <marquee scrollamount="2" direction=up>
+            QQ：1904974327<br><br><br>
+            脱下长日的假面<br>
+            奔向梦幻的疆界<br>
+            南瓜马车的午夜<br>
+            换上童话的玻璃鞋<br>
+        </marquee>
+    </div>
 </div>
 <!--侧边导航栏结束-->

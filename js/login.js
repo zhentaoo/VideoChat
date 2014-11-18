@@ -17,6 +17,7 @@ $(function () {
     $("#videoStart").tooltip();
     $("#videoLeave").tooltip();
     $("#videoTest").tooltip();
+    $("#wechat").tooltip();
 
     $("#VideoList_newRoom").tooltip();
     $("#VideoList_leave").tooltip();

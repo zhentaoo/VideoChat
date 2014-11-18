@@ -27,12 +27,12 @@
                 </button>
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        网站声明与简介
+                        网站声明和用户列表
                         <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" role="menu">
-                        <li><a href="<?php echo SITE_URL ?>user/PageShow">PageShow</a></li>
-                        <li><a href="<?php echo SITE_URL ?>user/show">Show</a></li>
+                        <li><a href="<?php echo SITE_URL ?>user/PageShow">用户列表</a></li>
+                        <li><a href="<?php echo SITE_URL ?>user/show">网站声明</a></li>
                     </ul>
                 </div>
             </div>
