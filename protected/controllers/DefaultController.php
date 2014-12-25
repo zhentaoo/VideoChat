@@ -30,7 +30,7 @@ class DefaultController extends Controller
 
         if (isset($_POST['LoginForm'])) {
             $login_model->attributes = $_POST['LoginForm'];
-            /**validate只校验不保存，和save()的区别**/
+            /**validate只校验不保存，和save()的区�?*/
             if ($login_model->validate() && $login_model->login())
                 $this->redirect('/VideoChat/index.php/user/');
             else {
@@ -68,7 +68,7 @@ class DefaultController extends Controller
     function actionApp()
     {
         /*
-         * 在config/main.php中定义
+         * 在config/main.php中定�?
          */
         echo Yii::app()->defaultController . '<br>';
         echo Yii::app()->layout . '<br>';
